@@ -1,16 +1,21 @@
-## Hi there 👋
+# Hi, I'm Faizan 👋
 
-<!--
-**Faizankhan-cyber/FaizanKhan-cyber** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 BCA Student
+☁️ Interested in Cloud Computing & Cybersecurity
+🐧 Comfortable with Linux basics
 
-Here are some ideas to get you started:
+## 🚀 Skills
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+* Linux (basic commands, file system, permissions)
+* Cloud fundamentals (Azure basics)
+* Cybersecurity basics (networking, threats, security concepts)
+
+## 📌 Current Focus
+
+* Azure Fundamentals (AZ-900)
+* Improving Linux skills
+* Building hands-on cloud projects
+
+## 📫 Contact
+
+* Email: faizankhanex@gmail.com 
