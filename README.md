@@ -16,6 +16,6 @@
 * Improving Linux skills
 * Building hands-on cloud projects
 
-## 📫 Contact
+## 📫 Contact.
 
 * Email: faizankhanex@gmail.com 
