@@ -1,4 +1,4 @@
-# Hi, I'm Faizan Khan 👋
+# Hi, I'm Faizan Khan Khaleel👋
 
 🎓 BCA Student (Cloud Architecture & Cybersecurity)
 
@@ -67,4 +67,5 @@ LinkedIn:
 www.linkedin.com/in/faizan-khan-khaleel
 
 Portfolio:
-Coming Soon
+http://faizankhank.vercel.app
+
