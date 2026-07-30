@@ -1,21 +1,70 @@
-# Hi, I'm Faizan 👋
+# Hi, I'm Faizan Khan 👋
 
-🎓 BCA Student
-☁️ Interested in Cloud Computing & Cybersecurity
-🐧 Comfortable with Linux basics
+🎓 BCA Student (Cloud Architecture & Cybersecurity)
 
-## 🚀 Skills
+🔒 Aspiring Cloud Security Engineer
 
-* Linux (basic commands, file system, permissions)
-* Cloud fundamentals (Azure basics)
-* Cybersecurity basics (networking, threats, security concepts)
+☁️ Learning Microsoft Azure, AWS and Cybersecurity
 
-## 📌 Current Focus
+---
 
-* Azure Fundamentals (AZ-900)
-* Improving Linux skills
-* Building hands-on cloud projects
+## About Me
 
-## 📫 Contact.
+- 🎓 BCA Student
+- 🔐 Interested in Cloud Security
+- ☁️ Learning Azure and AWS
+- 🐍 Python Programmer
+- 🌐 Learning Networking
+- 💻 Linux Enthusiast
 
-* Email: faizankhanex@gmail.com 
+---
+
+## Certifications
+
+- Cisco Introduction to Cybersecurity ✅
+- TryHackMe Pre Security ✅
+- Deloitte Cyber Virtual Experience ✅
+- Microsoft SC-900 (In Progress)
+
+---
+
+## Current Learning
+
+- Microsoft SC-900
+- Python
+- Azure
+- Networking
+- Linux
+
+---
+
+## Tools
+
+- Python
+- Git
+- GitHub
+- VS Code
+- Linux
+- Azure
+- Wireshark
+- VirtualBox
+
+---
+
+## Goals for 2026
+
+- Complete SC-900
+- Learn Azure Security
+- Build 6+ Cloud Projects
+- Participate in Hackathons
+- Land a Cloud Security Internship
+
+---
+
+## Connect With Me
+
+LinkedIn:
+www.linkedin.com/in/faizan-khan-khaleel
+
+Portfolio:
+Coming Soon
