@@ -1,71 +1,137 @@
-# Hi, I'm Faizan Khan Khaleel👋
+# 👋 Hi, I'm Faizan Khan
 
-🎓 BCA Student (Cloud Architecture & Cybersecurity)
+### ☁️ Cloud & Cybersecurity Student | Azure | Linux | Python
 
-🔒 Aspiring Cloud Security Engineer
+I'm a **BCA student** focused on **Cloud Computing, Cybersecurity, and Cloud Security**.
 
-☁️ Learning Microsoft Azure, AWS and Cybersecurity
+I like learning by building hands-on projects, experimenting with cloud infrastructure, working with Linux, and solving security problems.
 
----
-
-## About Me
-
-- 🎓 BCA Student
-- 🔐 Interested in Cloud Security
-- ☁️ Learning Azure and AWS
-- 🐍 Python Programmer
-- 🌐 Learning Networking
-- 💻 Linux Enthusiast
+🎯 **Goal:** Build a career in **Cloud Security** and work on secure, scalable cloud infrastructure.
 
 ---
 
-## Certifications
+## 🛠️ Technologies & Tools
 
-- Cisco Introduction to Cybersecurity ✅
-- TryHackMe Pre Security ✅
-- Deloitte Cyber Virtual Experience ✅
-- Microsoft SC-900 (In Progress)
+### ☁️ Cloud
 
----
+`Microsoft Azure` `AWS`
 
-## Current Learning
+### 🔐 Cybersecurity
 
-- Microsoft SC-900
-- Python
-- Azure
-- Networking
-- Linux
+`Network Security` `Cloud Security` `Wireshark` `Security Fundamentals`
 
----
+### 💻 Programming
 
-## Tools
+`Python` `JavaScript` `C`
 
-- Python
-- Git
-- GitHub
-- VS Code
-- Linux
-- Azure
-- Wireshark
-- VirtualBox
+### 🐧 Systems
+
+`Linux` `Windows` `VirtualBox`
+
+### 🔧 Tools
+
+`Git` `GitHub` `VS Code` `Nginx`
 
 ---
 
-## Goals for 2026
+## 🚀 Featured Projects
 
-- Complete SC-900
-- Learn Azure Security
-- Build 6+ Cloud Projects
-- Participate in Hackathons
-- Land a Cloud Security Internship
+### ☁️ Azure Enterprise Infrastructure
+
+A hands-on Azure infrastructure project focused on deploying and securing a Linux web server.
+
+**Azure Resource Group • VNet • Subnet • NSG • Ubuntu VM • SSH • Nginx**
 
 ---
 
-## Connect With Me
+### 🔐 BountyVault
 
-LinkedIn:
-www.linkedin.com/in/faizan-khan-khaleel
+A decentralized bounty escrow platform built during a blockchain hackathon.
 
-Portfolio:
-http://faizankhank.vercel.app
+**Algorand • AlgoKit • Python • Node.js • Express • SQLite • Pera Wallet**
 
+---
+
+### 🐧 Linux System Administration Lab
+
+Hands-on practice with Linux system administration, networking, users, permissions, storage, and system management.
+
+---
+
+### 🐍 Python Port Scanner
+
+A Python-based security tool for scanning ports and identifying accessible network services.
+
+---
+
+## 📜 Certifications & Learning
+
+* Cisco Introduction to Cybersecurity
+* TryHackMe Pre Security
+* Deloitte Cyber Job Simulation
+* Cloud Fundamentals
+* Microsoft SC-900 — *In Progress*
+* Microsoft AZ-900 — *Planned*
+
+---
+
+## 📚 Currently Learning
+
+* ☁️ Microsoft Azure
+* 🔐 Cloud Security
+* 🪪 Microsoft Entra ID & Identity
+* 🐧 Linux
+* 🐍 Python
+* 🌐 Computer Networking
+* 🔧 Git & GitHub
+
+---
+
+## 🏆 Hackathons
+
+I enjoy working on practical projects through hackathons and team-based challenges.
+
+* 🏅 Blockchain Hackathon — Algorand
+* 💻 Smart India Hackathon
+* 🚀 College Hackathons
+* ☁️ Cloud & Cybersecurity Projects
+
+---
+
+## 🎯 2026 Goals
+
+* Complete **SC-900**
+* Complete **AZ-900**
+* Build advanced **Azure security projects**
+* Participate in more hackathons
+* Contribute to open source
+* Secure a **Cloud/Cybersecurity internship**
+* Build a strong technical portfolio
+
+---
+
+## 📊 My Focus
+
+```text
+Cloud Computing
+      ↓
+Cloud Infrastructure
+      ↓
+Cybersecurity
+      ↓
+Cloud Security
+      ↓
+Cloud Security Engineering
+```
+
+---
+
+## 🌐 Connect With Me
+
+💼 **LinkedIn:** [Faizan Khan](https://www.linkedin.com/in/faizan-khan-khaleel/)
+
+🌐 **Portfolio:** [faizankhank.vercel.app](https://faizankhank.vercel.app/)
+
+---
+
+> Building my skills one project, one lab, and one challenge at a time. 🚀
