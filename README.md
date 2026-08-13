@@ -52,18 +52,6 @@ A decentralized bounty escrow platform built during a blockchain hackathon.
 
 ---
 
-### 🐧 Linux System Administration Lab
-
-Hands-on practice with Linux system administration, networking, users, permissions, storage, and system management.
-
----
-
-### 🐍 Python Port Scanner
-
-A Python-based security tool for scanning ports and identifying accessible network services.
-
----
-
 ## 📜 Certifications & Learning
 
 * Cisco Introduction to Cybersecurity
