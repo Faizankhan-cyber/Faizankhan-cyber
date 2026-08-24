@@ -115,10 +115,10 @@ Cybersecurity
 Cloud Security
 ```
 
-# 🌐 Connect With Me
+## 🌐 Connect With Me
 
-💼 LinkedIn: Faizan Khan
+💼 LinkedIn: https://www.linkedin.com/in/faizan-khan-khaleel
 
-🌐 Portfolio: faizankhank.vercel.app
+🌐 Portfolio: https://faizankhank.vercel.app
 
-Building my skills through projects, labs, certifications, and real-world challenges. 🚀
+### Building my skills through projects, labs, certifications, and real-world challenges. 🚀
