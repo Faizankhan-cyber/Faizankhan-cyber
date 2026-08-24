@@ -114,3 +114,11 @@ Cybersecurity
       ↓
 Cloud Security
 ```
+
+🌐 Connect With Me
+
+💼 LinkedIn: Faizan Khan
+
+🌐 Portfolio: faizankhank.vercel.app
+
+Building my skills through projects, labs, certifications, and real-world challenges. 🚀
