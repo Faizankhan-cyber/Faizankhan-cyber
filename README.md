@@ -2,7 +2,7 @@
 
 ### ☁️ Cloud & Cybersecurity Student | Azure | Linux | Python
 
-I'm a **BCA student** focused on **Cloud Computing, Cybersecurity, and Cloud Security**.
+I'm a **BCA student** focused on **Cloud Computing, Cybersecurity, and Cloud Security**
 
 I like learning by building hands-on projects, experimenting with cloud infrastructure, working with Linux, and solving security problems.
 
@@ -10,7 +10,7 @@ I like learning by building hands-on projects, experimenting with cloud infrastr
 
 ---
 
-## 🛠️ Technologies & Tools
+## 🛠️ Technologies & Tools.
 
 ### ☁️ Cloud
 
