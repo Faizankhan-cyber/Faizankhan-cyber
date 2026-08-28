@@ -69,6 +69,7 @@ A decentralized bounty escrow platform built during a blockchain hackathon.
 - TryHackMe Pre Security
 - Deloitte Cyber Job Simulation
 - Cloud Fundamentals
+- Linux Basics
 - Microsoft SC-900 
 - Microsoft GH 900 - In progess
 ---
