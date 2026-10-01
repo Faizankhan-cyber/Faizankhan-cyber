@@ -71,7 +71,7 @@ A decentralized bounty escrow platform built during a blockchain hackathon.
 - Cloud Fundamentals
 - Linux Basics
 - Microsoft SC-900 
-- Microsoft GH 900 - In progess
+- Microsoft GH-900
 ---
 
 ## 📚 Currently Learning
