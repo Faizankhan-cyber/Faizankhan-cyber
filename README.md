@@ -1,6 +1,6 @@
 <div align="center">
 
-# Hi, I'm Faizan Khan Khaleel 👋
+# Hi, I'm Faizan 👋
 
 ### Cloud & Cybersecurity Student · Microsoft Azure · Linux · Identity & Access Management
 
