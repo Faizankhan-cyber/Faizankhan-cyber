@@ -4,175 +4,264 @@
 
 <br/>
 
-<a href="https://faizankhank.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-0B1F33?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
-<a href="https://www.linkedin.com/in/faizan-khan-khaleel"><img src="https://img.shields.io/badge/LINKEDIN-0B1F33?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-<a href="mailto:faizankhanex@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0B1F33?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+<a href="https://faizankhank.vercel.app"><img src="https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-0878C9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/faizan-khan-khaleel"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-155E91?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:faizankhanex@gmail.com"><img src="https://img.shields.io/badge/CONTACT_ME-167C80?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/FOCUS-AZURE_CLOUD_SECURITY-0878C9?style=flat-square" alt="Focus: Azure Cloud Security" />
+<img src="https://img.shields.io/badge/LEARNING-IDENTITY_%26_ACCESS-168C83?style=flat-square" alt="Learning identity and access" />
+<img src="https://img.shields.io/badge/BASED_IN-BENGALURU,_INDIA-455A70?style=flat-square" alt="Based in Bengaluru, India" />
 
 </div>
 
 ---
 
-## About me
+## 👋 About me
 
-I'm a **BCA student at SSMRV Degree College, Bengaluru**, studying Cloud Architecture and Cybersecurity. My current learning path is centred on **Microsoft Azure**, and the area I want to grow into is **Cloud Security**.
+I'm a **BCA student at SSMRV Degree College, Bengaluru**, studying Cloud Architecture and Cybersecurity. I'm currently building my foundation in **Microsoft Azure**, with a clear career interest in **Cloud Security**.
 
-I'm interested in what happens behind a cloud application: how networks are separated, how identities get access, how secrets are protected, and how teams can spot risky configurations before they become incidents.
+What interests me most is the security behind cloud systems:
 
-I prefer learning by building small environments, testing the controls, documenting what happened, and improving the design. A service name on a checklist means very little until I understand what it does and why it matters.
+- How should cloud networks and workloads be separated?
+- How do identities get access to resources, and how do we keep that access limited?
+- How should applications store secrets without exposing credentials?
+- How can misconfigurations and suspicious activity be detected early?
 
-## My current direction
+I enjoy turning these questions into practical labs and projects. My approach is simple: **learn the concept, build it, test it, document it, and improve it.**
+
+## 🎯 Current learning roadmap
 
 <table>
 <tr>
 <td width="33%" valign="top">
 
-**01 · Cloud foundation**
+### ☁️ Azure foundations
 
-Learning Azure infrastructure, virtual networks, subnets, virtual machines, storage, and the way cloud resources fit together.
-
-</td>
-<td width="33%" valign="top">
-
-**02 · Identity & access**
-
-Exploring Microsoft Entra ID, Azure RBAC, authentication, least privilege, and identity-based access.
+- Azure compute and networking
+- Virtual networks and subnets
+- Network Security Groups
+- Linux workloads
+- Cloud resource management
 
 </td>
 <td width="33%" valign="top">
 
-**03 · Security mindset**
+### 🔐 Identity & access
 
-Building an understanding of network security, secure configuration, Zero Trust, threat modelling, and cloud governance.
+- Microsoft Entra ID
+- Azure role-based access control
+- Authentication and authorisation
+- Managed identities
+- Least-privilege access
+
+</td>
+<td width="33%" valign="top">
+
+### 🛡️ Cloud security
+
+- Network security design
+- Key Vault and secret handling
+- Azure Policy and governance
+- Zero Trust concepts
+- Threat modelling and security checks
 
 </td>
 </tr>
 </table>
 
-## Selected work
+<details>
+<summary><strong>What I'm focusing on right now</strong></summary>
 
-These projects reflect the areas I have been exploring, from cloud infrastructure and identity controls to application security and backend development.
+My current learning path is centred on strengthening Azure administration knowledge while building a security-first understanding of identity, networking, access control, and governance. I'm working through AZ-104 and using hands-on projects to connect the theory to real cloud resources.
 
-### Cloud & security
-
-<table>
-<tr>
-<td width="50%" valign="top">
-
-**[Togetherly Azure Platform](https://github.com/Faizankhan-cyber/togetherly-azure-platform)**
-
-A cloud platform project focused on deploying an application on Azure and strengthening the infrastructure around it.
-
-- Azure virtual network and subnet design
-- Network Security Groups and Linux workloads
-- Managed Identity, Key Vault, RBAC, and Azure Policy
-
-<sub>AZURE · CLOUD INFRASTRUCTURE · SECURITY</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[Microsoft Entra ID & Azure RBAC Lab](https://github.com/Faizankhan-cyber/microsoft-entra-id-azure-rbac-standalone)**
-
-A practical identity and access management lab using Terraform.
-
-- Entra ID identities, groups, and role assignments
-- Least-privilege access design
-- Checkov scans for infrastructure-as-code
-
-<sub>ENTRA ID · IAM · TERRAFORM</sub>
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-**[Secure Linux Web Server on Azure](https://github.com/Faizankhan-cyber/secure-linux-web-server-azure)**
-
-A Linux web server deployment built to practise the cloud infrastructure basics behind a secure workload.
-
-- Ubuntu VM and Azure networking
-- NSG rules and SSH key authentication
-- Nginx web server deployment
-
-<sub>AZURE · LINUX · NETWORK SECURITY</sub>
-
-</td>
-<td width="50%" valign="top">
-
-**[ThreatLens](https://github.com/Faizankhan-cyber/ThreatLens) · [Live demo](https://threatlens-project.vercel.app/)**
-
-An AI-assisted fraud and phishing triage application developed for the SIH 2026 internal round.
-
-- Inspects suspicious URLs, messages, emails, QR codes, and phone numbers
-- Built with React, TypeScript, Vite, and Tailwind CSS
-
-<sub>CYBERSECURITY · THREAT TRIAGE · SIH 2026</sub>
-
-</td>
-</tr>
-</table>
-
-### Other builds
-
-**[BountyVault](https://github.com/Faizankhan-cyber/bountyvault)** · [Live demo](https://bountyvault-project.vercel.app/)
-
-A blockchain-based bounty escrow application built on Algorand Testnet with Team Block Rookies. I contributed as **backend lead**, working on the API and escrow workflow.
-
-<sub>PYTHON ARC4 · NODE.JS · EXPRESS · SQLITE · ALGORAND</sub>
-
-**[Togetherly Workforce](https://github.com/Faizankhan-cyber/togetherly-workforce)** · [Live demo](https://togetherly-tinyfish.vercel.app/)
-
-A workforce allocation application built with React, TypeScript, Supabase, and Tailwind CSS.
-
-<sub>REACT · TYPESCRIPT · SUPABASE</sub>
+</details>
 
 ---
 
-## Tools I use and explore
+## 🧩 Featured projects
+
+I use projects to explore real technical problems, practise implementation, and make my learning visible. These are selected builds across cloud infrastructure, identity, cybersecurity, and backend development.
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+<h3>☁️ <a href="https://github.com/Faizankhan-cyber/togetherly-azure-platform">Togetherly Azure Platform</a></h3>
+
+A cloud platform project focused on deploying an application on Azure and strengthening the infrastructure around it.
+
+**What it explores**
+- Azure virtual network and subnet design
+- Network Security Groups and Linux workloads
+- Managed Identity and Key Vault
+- Azure RBAC and Azure Policy
+
+<img src="https://img.shields.io/badge/AZURE-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/CLOUD_SECURITY-173D5C?style=flat-square" />
+
+</td>
+<td width="50%" valign="top">
+
+<h3>🔐 <a href="https://github.com/Faizankhan-cyber/microsoft-entra-id-azure-rbac-standalone">Entra ID & Azure RBAC Lab</a></h3>
+
+A hands-on identity and access management lab built around repeatable infrastructure configuration.
+
+**What it explores**
+- Entra ID identities and groups
+- Azure role assignments
+- Least-privilege access design
+- Terraform and Checkov security scans
+
+<img src="https://img.shields.io/badge/ENTRA_ID-5E5E5E?style=flat-square&logo=microsoft&logoColor=white" />
+<img src="https://img.shields.io/badge/TERRAFORM-7B42BC?style=flat-square&logo=terraform&logoColor=white" />
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+<h3>🖥️ <a href="https://github.com/Faizankhan-cyber/secure-linux-web-server-azure">Secure Linux Web Server on Azure</a></h3>
+
+A Linux web server deployment used to practise the building blocks of a secure cloud workload.
+
+**What it explores**
+- Ubuntu virtual machine deployment
+- Azure networking and NSG rules
+- SSH key-based access
+- Nginx web server setup
+
+<img src="https://img.shields.io/badge/UBUNTU-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
+<img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white" />
+
+</td>
+<td width="50%" valign="top">
+
+<h3>🕵️ <a href="https://github.com/Faizankhan-cyber/ThreatLens">ThreatLens</a></h3>
+
+An AI-assisted fraud and phishing triage application developed for the SIH 2026 internal round.
+
+**What it explores**
+- Analysis of suspicious URLs and messages
+- Email, QR code, and phone number checks
+- A simple interface for inspecting potential threats
+
+<a href="https://threatlens-project.vercel.app/"><img src="https://img.shields.io/badge/OPEN_LIVE_DEMO-167C80?style=flat-square&logo=vercel&logoColor=white" alt="ThreatLens live demo" /></a>
+
+</td>
+</tr>
+</table>
+
+### 🚀 Other builds
+
+| Project | What it is | My contribution |
+|---|---|---|
+| [BountyVault](https://github.com/Faizankhan-cyber/bountyvault) · [Live demo](https://bountyvault-project.vercel.app/) | Algorand Testnet bounty escrow application | Backend lead, API and escrow workflow |
+| [Togetherly Workforce](https://github.com/Faizankhan-cyber/togetherly-workforce) · [Live demo](https://togetherly-tinyfish.vercel.app/) | Workforce allocation application | Application development |
+
+---
+
+## 🧰 Technology stack
+
+### Cloud, identity & infrastructure
 
 <p>
-<img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Microsoft Azure" />
-<img src="https://img.shields.io/badge/Microsoft_Entra_ID-5E5E5E?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft Entra ID" />
-<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
-<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
-<img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
-<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
-<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
-<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
-<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
-<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+<img src="https://img.shields.io/badge/Azure-0078D4?style=for-the-badge&logo=microsoftazure&logoColor=white" />
+<img src="https://img.shields.io/badge/Entra_ID-4B5563?style=for-the-badge&logo=microsoft&logoColor=white" />
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" />
+<img src="https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white" />
 </p>
 
-## Certifications & learning
+### Programming & development
 
-| Certification | Status |
-|---|---|
-| Microsoft Security, Compliance, and Identity Fundamentals · **SC-900** | **Passed** |
-| Microsoft Azure Fundamentals · **AZ-900** | **Passed** |
-| Microsoft Azure Administrator · **AZ-104** | In progress |
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white" />
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=for-the-badge&logo=powershell&logoColor=white" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
+<img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+</p>
 
-**Additional learning**
+---
+
+## 🏅 Certifications
+
+<table>
+<tr>
+<td width="68%" valign="middle">
+
+**Microsoft Certified: Security, Compliance, and Identity Fundamentals**
+
+SC-900 · Microsoft
+
+</td>
+<td align="center" valign="middle">
+
+<img src="https://img.shields.io/badge/PASSED-16845B?style=for-the-badge" />
+
+</td>
+</tr>
+<tr>
+<td width="68%" valign="middle">
+
+**Microsoft Certified: Azure Fundamentals**
+
+AZ-900 · Microsoft
+
+</td>
+<td align="center" valign="middle">
+
+<img src="https://img.shields.io/badge/PASSED-16845B?style=for-the-badge" />
+
+</td>
+</tr>
+<tr>
+<td width="68%" valign="middle">
+
+**Microsoft Azure Administrator**
+
+AZ-104 · Microsoft
+
+</td>
+<td align="center" valign="middle">
+
+<img src="https://img.shields.io/badge/IN_PROGRESS-BA812B?style=for-the-badge" />
+
+</td>
+</tr>
+</table>
+
+### Additional learning
 
 - Cisco · Introduction to Cybersecurity
 - TryHackMe · Pre-Security
 - Deloitte · Cyber Job Simulation (Forage)
 - Linux System Engineering & Virtualization · CentOS
 
-## How I approach learning
+---
 
-- **Build it:** create a working environment instead of stopping at videos and notes.
-- **Understand access:** know which identity can reach which resource, and why.
-- **Test the controls:** check network rules, permissions, and configuration rather than assuming they are secure.
-- **Document the work:** keep the setup, decisions, issues, and lessons visible in the project.
+## 🧠 How I build and learn
+
+| Principle | How I apply it |
+|---|---|
+| **Understand before using** | Learn what a cloud service does and the problem it solves. |
+| **Think about access** | Check which identity can access a resource and whether that access is necessary. |
+| **Test security controls** | Validate network rules, permissions, and configurations instead of assuming they work. |
+| **Document the process** | Record architecture, setup steps, errors, fixes, and lessons in project repositories. |
 
 ---
 
 <div align="center">
 
-**Learning Azure. Working towards Cloud Security.**
+### Learning Azure. Building towards Cloud Security.
 
-<sub>Build with intent · Understand the risk · Secure by design</sub>
+**Build thoughtfully · Understand the risk · Secure by design**
+
+<a href="https://faizankhank.vercel.app">Portfolio</a> · <a href="https://www.linkedin.com/in/faizan-khan-khaleel">LinkedIn</a> · <a href="mailto:faizankhanex@gmail.com">Email</a>
 
 </div>
