@@ -1,0 +1,241 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="400" viewBox="0 0 1200 400" role="img" aria-labelledby="heroTitle heroDesc">
+  <title id="heroTitle">Faizan Khan - Cloud Infrastructure and Cybersecurity</title>
+  <desc id="heroDesc">Animated Zero-Trust Cloud Security Reactor banner for Faizan Khan with orbital defense rings, radar sweep, curved packet flows, and live threat interception.</desc>
+  <defs>
+    <linearGradient id="spaceBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#030712"/>
+      <stop offset="45%" stop-color="#071124"/>
+      <stop offset="100%" stop-color="#0B1D3A"/>
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="65%" stop-color="#E0F2FE"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="cyanGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9"/>
+      <stop offset="100%" stop-color="#38BDF8"/>
+    </linearGradient>
+    <linearGradient id="emeraldGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981"/>
+      <stop offset="100%" stop-color="#34D399"/>
+    </linearGradient>
+    <linearGradient id="radarCone" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.38"/>
+      <stop offset="100%" stop-color="#38BDF8" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="coreSpotlight" cx="72%" cy="50%" r="42%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.32"/>
+      <stop offset="55%" stop-color="#0F172A" stop-opacity="0.1"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="leftSpotlight" cx="22%" cy="35%" r="40%">
+      <stop offset="0%" stop-color="#10B981" stop-opacity="0.12"/>
+      <stop offset="100%" stop-color="#030712" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="hexMesh" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1E293B" stroke-width="0.7" stroke-opacity="0.55"/>
+      <circle cx="20" cy="20" r="1" fill="#38BDF8" fill-opacity="0.18"/>
+    </pattern>
+  </defs>
+
+  <!-- Base Canvas & Spotlights -->
+  <rect width="1200" height="400" rx="18" fill="url(#spaceBg)"/>
+  <rect width="1200" height="400" rx="18" fill="url(#hexMesh)"/>
+  <rect width="1200" height="400" rx="18" fill="url(#coreSpotlight)"/>
+  <rect width="1200" height="400" rx="18" fill="url(#leftSpotlight)"/>
+  <rect x="1" y="1" width="1198" height="398" rx="17" fill="none" stroke="#1E3A5F" stroke-width="1.5"/>
+
+  <!-- Subtle Perspective Horizon Lines -->
+  <path d="M 0 365 L 1200 365" stroke="#1E293B" stroke-width="1"/>
+  <path d="M 56 365 L 420 365" stroke="url(#cyanGlow)" stroke-width="2">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite"/>
+  </path>
+
+  <!-- ========================================================= -->
+  <!-- LEFT HERO SECTION: IDENTITY, LIVE ECG WAVE & TERMINAL     -->
+  <!-- ========================================================= -->
+  <g font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+
+    <!-- Live Security Telemetry Pill + Animated Waveform -->
+    <rect x="56" y="38" width="248" height="28" rx="14" fill="#07192E" stroke="#0EA5E9" stroke-width="1.2"/>
+    <circle cx="74" cy="52" r="4" fill="#10B981"/>
+    <circle cx="74" cy="52" r="4" fill="none" stroke="#34D399" stroke-width="1.5">
+      <animate attributeName="r" values="4;10" dur="1.6s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="0.9;0" dur="1.6s" repeatCount="indefinite"/>
+    </circle>
+    <text x="88" y="56" fill="#7DD3FC" font-family="Consolas, monospace" font-size="11" font-weight="700" letter-spacing="1.2">DEFENSE POSTURE: ACTIVE</text>
+
+    <!-- Animated ECG / Network Pulse Wave -->
+    <path d="M 318 52 L 345 52 L 352 40 L 360 64 L 368 34 L 376 60 L 383 48 L 390 52 L 435 52" fill="none" stroke="#38BDF8" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="140" stroke-dashoffset="140">
+      <animate attributeName="stroke-dashoffset" values="140;0;-140" dur="3.2s" repeatCount="indefinite"/>
+    </path>
+
+    <!-- Hero Name -->
+    <text x="56" y="122" fill="url(#nameGrad)" font-size="56" font-weight="800" letter-spacing="-1.2">Faizan Khan</text>
+
+    <!-- Role Subtitle -->
+    <text x="56" y="154" fill="#38BDF8" font-size="16" font-weight="700" letter-spacing="2.2">AZURE INFRASTRUCTURE  &#183;  IAM  &#183;  CLOUD SECURITY</text>
+    <text x="56" y="180" fill="#94A3B8" font-size="14" font-weight="500">BCA (Cloud Architecture &#38; Cybersecurity) &#183; SSMRV College, Bengaluru</text>
+
+    <!-- Interactive Glass Terminal Console -->
+    <rect x="56" y="200" width="468" height="104" rx="10" fill="#050D1A" fill-opacity="0.9" stroke="#1E3A5F" stroke-width="1.4"/>
+    <rect x="57" y="201" width="466" height="24" rx="9" fill="#0B192E"/>
+    <circle cx="72" cy="213" r="4" fill="#EF4444"/>
+    <circle cx="86" cy="213" r="4" fill="#F59E0B"/>
+    <circle cx="100" cy="213" r="4" fill="#10B981"/>
+    <text x="118" y="217" fill="#64748B" font-family="Consolas, monospace" font-size="10.5">azure-cli // zero-trust-verification</text>
+
+    <!-- Staggered Animated Verification Lines -->
+    <g font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="11.5">
+      <text x="72" y="244" fill="#CBD5E1">
+        &#62; identity.entra_rbac     <tspan fill="#38BDF8">[LEAST-PRIVILEGE]</tspan>
+        <animate attributeName="opacity" values="0.35;1;1;0.35" keyTimes="0;0.15;0.85;1" dur="6s" repeatCount="indefinite"/>
+      </text>
+      <text x="72" y="266" fill="#CBD5E1">
+        &#62; network.vnet_nsg_rules  <tspan fill="#34D399">[ISOLATED &#38; SSH-KEY]</tspan>
+        <animate attributeName="opacity" values="0.35;0.35;1;1;0.35" keyTimes="0;0.25;0.4;0.85;1" dur="6s" repeatCount="indefinite"/>
+      </text>
+      <text x="72" y="288" fill="#CBD5E1">
+        &#62; secrets.keyvault_mi     <tspan fill="#A78BFA">[ZERO-HARDCODED-KEYS]</tspan>
+        <animate attributeName="opacity" values="0.35;0.35;1;1;0.35" keyTimes="0;0.5;0.65;0.9;1" dur="6s" repeatCount="indefinite"/>
+      </text>
+    </g>
+
+    <!-- Bottom Credential & Project Pills -->
+    <g transform="translate(56, 320)">
+      <rect x="0" y="0" width="148" height="28" rx="6" fill="#062E26" stroke="#10B981" stroke-width="1.2"/>
+      <text x="74" y="18" text-anchor="middle" fill="#6EE7B7" font-size="11" font-weight="700" letter-spacing="0.6">SC-900 CERTIFIED</text>
+
+      <rect x="158" y="0" width="150" height="28" rx="6" fill="#0C2540" stroke="#0284C7" stroke-width="1.2"/>
+      <text x="233" y="18" text-anchor="middle" fill="#7DD3FC" font-size="11" font-weight="700" letter-spacing="0.6">AZ-900 &#183; GH-900</text>
+
+      <rect x="318" y="0" width="150" height="28" rx="6" fill="#1E1B4B" stroke="#818CF8" stroke-width="1.2"/>
+      <text x="393" y="18" text-anchor="middle" fill="#C7D2FE" font-size="11" font-weight="700" letter-spacing="0.6">TERRAFORM &#183; PYTHON</text>
+    </g>
+  </g>
+
+  <!-- ========================================================= -->
+  <!-- RIGHT HERO SECTION: ANIMATED ZERO-TRUST SECURITY REACTOR  -->
+  <!-- ========================================================= -->
+  <g font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+
+    <!-- Curved Circuit Paths Connecting Satellite Nodes to Core (870, 195) -->
+    <!-- Path 1: Top-Left (Entra ID) to Core -->
+    <path id="pathEntra" d="M 670 95 C 755 95, 795 145, 835 175" fill="none" stroke="#0284C7" stroke-width="1.8" stroke-dasharray="4 4" opacity="0.65"/>
+    <!-- Path 2: Bottom-Left (VNet/NSG) to Core -->
+    <path id="pathVnet" d="M 670 295 C 755 295, 795 245, 835 215" fill="none" stroke="#3B82F6" stroke-width="1.8" stroke-dasharray="4 4" opacity="0.65"/>
+    <!-- Path 3: Top-Right (Key Vault) to Core -->
+    <path id="pathVault" d="M 1070 95 C 985 95, 945 145, 905 175" fill="none" stroke="#10B981" stroke-width="1.8" stroke-dasharray="4 4" opacity="0.65"/>
+    <!-- Path 4: Bottom-Right (Terraform/Policy) to Core -->
+    <path id="pathIac" d="M 1070 295 C 985 295, 945 245, 905 215" fill="none" stroke="#8B5CF6" stroke-width="1.8" stroke-dasharray="4 4" opacity="0.65"/>
+
+    <!-- Animated Glowing Data Packets Flowing Along Curved Paths -->
+    <circle r="4.5" fill="#38BDF8">
+      <animateMotion path="M 670 95 C 755 95, 795 145, 835 175" dur="2.6s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4.5" fill="#60A5FA">
+      <animateMotion path="M 670 295 C 755 295, 795 245, 835 215" dur="3.1s" begin="0.7s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4.5" fill="#34D399">
+      <animateMotion path="M 1070 95 C 985 95, 945 145, 905 175" dur="2.8s" begin="0.4s" repeatCount="indefinite"/>
+    </circle>
+    <circle r="4.5" fill="#C4B5FD">
+      <animateMotion path="M 1070 295 C 985 295, 945 245, 905 215" dur="3.3s" begin="1.2s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- LIVE THREAT INTERCEPTION SIMULATION (Left Perimeter at x=738, y=195) -->
+    <line x1="555" y1="195" x2="736" y2="195" stroke="#EF4444" stroke-width="1.5" stroke-dasharray="3 5" opacity="0.5"/>
+    <text x="558" y="184" fill="#F87171" font-family="Consolas, monospace" font-size="9.5" font-weight="700">UNTRUSTED TRAFFIC</text>
+    <!-- Red Attack Packet Blocked at Outer Shield -->
+    <circle r="4" fill="#EF4444">
+      <animateMotion path="M 555 195 L 736 195" dur="2.2s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;1;0" keyTimes="0;0.9;1" dur="2.2s" repeatCount="indefinite"/>
+    </circle>
+    <!-- Deflection Ripple at Shield Impact Point (736, 195) -->
+    <circle cx="736" cy="195" r="3" fill="none" stroke="#EF4444" stroke-width="2">
+      <animate attributeName="r" values="2;18" dur="2.2s" begin="1.95s" repeatCount="indefinite"/>
+      <animate attributeName="opacity" values="1;0" dur="2.2s" begin="1.95s" repeatCount="indefinite"/>
+    </circle>
+    <text x="692" y="214" fill="#FBBF24" font-family="Consolas, monospace" font-size="9" font-weight="700">
+      [NSG BLOCKED]
+      <animate attributeName="opacity" values="0.2;1;0.2" dur="2.2s" repeatCount="indefinite"/>
+    </text>
+
+    <!-- ORBITAL RING 1: Outer Perimeter Ring (Clockwise Rotation) -->
+    <circle cx="870" cy="195" r="134" fill="none" stroke="#1E3A5F" stroke-width="1.2"/>
+    <circle cx="870" cy="195" r="134" fill="none" stroke="#38BDF8" stroke-width="2" stroke-dasharray="28 18 8 18" opacity="0.75">
+      <animateTransform attributeName="transform" type="rotate" from="0 870 195" to="360 870 195" dur="24s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ORBITAL RING 2: Zero-Trust Policy Ring (Counter-Clockwise Rotation) -->
+    <circle cx="870" cy="195" r="98" fill="none" stroke="#10B981" stroke-width="1.8" stroke-dasharray="42 24 12 24" opacity="0.65">
+      <animateTransform attributeName="transform" type="rotate" from="360 870 195" to="0 870 195" dur="16s" repeatCount="indefinite"/>
+    </circle>
+
+    <!-- ROTATING RADAR SWEEP SECTOR -->
+    <g>
+      <path d="M 870 195 L 870 97 A 98 98 0 0 1 955 146 Z" fill="url(#radarCone)"/>
+      <animateTransform attributeName="transform" type="rotate" from="0 870 195" to="360 870 195" dur="5s" repeatCount="indefinite"/>
+    </g>
+
+    <!-- CENTRAL AZURE ZERO-TRUST HEXAGON CORE (870, 195) -->
+    <polygon points="870,137 920,166 920,224 870,253 820,224 820,166" fill="#07162C" stroke="#38BDF8" stroke-width="2.2">
+      <animate attributeName="stroke" values="#38BDF8;#10B981;#38BDF8" dur="4s" repeatCount="indefinite"/>
+    </polygon>
+    <polygon points="870,147 911,171 911,219 870,243 829,219 829,171" fill="#0B2240" stroke="#1E3A5F" stroke-width="1"/>
+
+    <!-- Shield & Lock Icon Inside Central Core -->
+    <path d="M 870 160 L 892 170 V 190 C 892 206 870 216 870 216 C 870 216 848 206 848 190 V 170 Z" fill="#0F2D52" stroke="#7DD3FC" stroke-width="1.6"/>
+    <rect x="863" y="184" width="14" height="11" rx="2" fill="#38BDF8"/>
+    <path d="M 866 184 V 179 A 4 4 0 0 1 874 179 V 184" fill="none" stroke="#38BDF8" stroke-width="1.6"/>
+    <text x="870" y="233" text-anchor="middle" fill="#E0F2FE" font-family="Consolas, monospace" font-size="9.5" font-weight="700" letter-spacing="1">ZERO TRUST</text>
+
+    <!-- ========================================================= -->
+    <!-- 4 SATELLITE ARCHITECTURE NODES                            -->
+    <!-- ========================================================= -->
+
+    <!-- Satellite 1 (Top-Left): ENTRA ID & RBAC -->
+    <g transform="translate(555, 58)">
+      <rect x="0" y="0" width="168" height="66" rx="10" fill="#08172E" stroke="#0284C7" stroke-width="1.5"/>
+      <circle cx="26" cy="33" r="14" fill="#0C2D48" stroke="#38BDF8" stroke-width="1.2"/>
+      <circle cx="26" cy="29" r="4" fill="none" stroke="#7DD3FC" stroke-width="1.5"/>
+      <path d="M 19 39 C 19 35 33 35 33 39" fill="none" stroke="#7DD3FC" stroke-width="1.5"/>
+      <text x="48" y="27" fill="#F8FAFC" font-size="12.5" font-weight="700">Entra ID &#38; RBAC</text>
+      <text x="48" y="44" fill="#7DD3FC" font-family="Consolas, monospace" font-size="10">Identity &#183; IAM</text>
+      <text x="48" y="57" fill="#64748B" font-size="9.5">Least Privilege</text>
+    </g>
+
+    <!-- Satellite 2 (Bottom-Left): AZURE VNET & NSG -->
+    <g transform="translate(555, 266)">
+      <rect x="0" y="0" width="168" height="66" rx="10" fill="#08172E" stroke="#3B82F6" stroke-width="1.5"/>
+      <circle cx="26" cy="33" r="14" fill="#172554" stroke="#60A5FA" stroke-width="1.2"/>
+      <rect x="19" y="26" width="14" height="14" rx="2" fill="none" stroke="#93C5FD" stroke-width="1.5"/>
+      <line x1="19" y1="33" x2="33" y2="33" stroke="#93C5FD" stroke-width="1.2"/>
+      <text x="48" y="27" fill="#F8FAFC" font-size="12.5" font-weight="700">Azure VNet &#38; NSG</text>
+      <text x="48" y="44" fill="#93C5FD" font-family="Consolas, monospace" font-size="10">Ubuntu &#183; Nginx</text>
+      <text x="48" y="57" fill="#64748B" font-size="9.5">Segmented Subnets</text>
+    </g>
+
+    <!-- Satellite 3 (Top-Right): KEY VAULT & MANAGED IDENTITY -->
+    <g transform="translate(1012, 58)">
+      <rect x="0" y="0" width="168" height="66" rx="10" fill="#08172E" stroke="#10B981" stroke-width="1.5"/>
+      <circle cx="26" cy="33" r="14" fill="#062E26" stroke="#34D399" stroke-width="1.2"/>
+      <circle cx="24" cy="31" r="4" fill="none" stroke="#6EE7B7" stroke-width="1.5"/>
+      <path d="M 27 34 L 33 40 M 30 37 L 33 35" fill="none" stroke="#6EE7B7" stroke-width="1.5"/>
+      <text x="48" y="27" fill="#F8FAFC" font-size="12.5" font-weight="700">Azure Key Vault</text>
+      <text x="48" y="44" fill="#6EE7B7" font-family="Consolas, monospace" font-size="10">Managed Identity</text>
+      <text x="48" y="57" fill="#64748B" font-size="9.5">Passwordless Auth</text>
+    </g>
+
+    <!-- Satellite 4 (Bottom-Right): TERRAFORM, CHECKOV & POLICY -->
+    <g transform="translate(1012, 266)">
+      <rect x="0" y="0" width="168" height="66" rx="10" fill="#08172E" stroke="#8B5CF6" stroke-width="1.5"/>
+      <circle cx="26" cy="33" r="14" fill="#2E1065" stroke="#A78BFA" stroke-width="1.2"/>
+      <path d="M 21 29 L 17 33 L 21 37 M 31 29 L 35 33 L 31 37 M 28 27 L 24 39" fill="none" stroke="#DDD6FE" stroke-width="1.4"/>
+      <text x="48" y="27" fill="#F8FAFC" font-size="12.5" font-weight="700">Terraform &#38; Policy</text>
+      <text x="48" y="44" fill="#C4B5FD" font-family="Consolas, monospace" font-size="10">Checkov &#183; IaC</text>
+      <text x="48" y="57" fill="#64748B" font-size="9.5">Guardrails Audited</text>
+    </g>
+  </g>
+</svg>
