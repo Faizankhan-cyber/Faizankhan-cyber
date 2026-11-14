@@ -215,7 +215,21 @@ AZ-900 · Microsoft
 </td>
 <td align="center" valign="middle">
 
-<img src="https://img.shields.io/badge/PASSED-16845B?style=for-the-badge" />
+<img src="https://img.shields.io/badge/IN_PROGRESS-BA812B?style=for-the-badge" />
+
+</td>
+</tr>
+<tr>
+<td width="68%" valign="middle">
+
+**Microsoft Certified: Github Fundamentals**
+
+GH-900 · Microsoft
+
+</td>
+<td align="center" valign="middle">
+
+<img src="https://img.shields.io/badge/IN_PROGRESS-BA812B?style=for-the-badge" />
 
 </td>
 </tr>
