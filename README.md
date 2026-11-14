@@ -1,108 +1,178 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Faizan Khan | Cloud Security, Identity and Microsoft Azure" />
+<img src="./assets/banner.svg" width="100%" alt="Faizan Khan | Azure and Cloud Security" />
 
-<p>
-  <a href="https://faizankhank.vercel.app">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/faizan-khan-khaleel">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:faizankhanex@gmail.com">Email</a>
-</p>
+<br/>
+
+<a href="https://faizankhank.vercel.app"><img src="https://img.shields.io/badge/PORTFOLIO-0B1F33?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
+<a href="https://www.linkedin.com/in/faizan-khan-khaleel"><img src="https://img.shields.io/badge/LINKEDIN-0B1F33?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+<a href="mailto:faizankhanex@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0B1F33?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
 </div>
 
 ---
 
-## About
+## About me
 
-I'm a BCA student specialising in **Cloud Architecture and Cybersecurity**, based in Bengaluru, India.
+I'm a **BCA student at SSMRV Degree College, Bengaluru**, studying Cloud Architecture and Cybersecurity. My current learning path is centred on **Microsoft Azure**, and the area I want to grow into is **Cloud Security**.
 
-I'm working towards a career in **cloud security**, with a particular interest in Microsoft Azure, identity and access management, and Zero Trust. I enjoy understanding how cloud systems fit together, where they can fail, and how to make their security controls practical and testable.
+I'm interested in what happens behind a cloud application: how networks are separated, how identities get access, how secrets are protected, and how teams can spot risky configurations before they become incidents.
 
-My focus is on building, documenting, and validating systems rather than collecting tools for the sake of listing them.
+I prefer learning by building small environments, testing the controls, documenting what happened, and improving the design. A service name on a checklist means very little until I understand what it does and why it matters.
 
-## What I Work On
+## My current direction
 
-- **Cloud security:** Azure networking, VM security, Network Security Groups, and secure Linux workloads.
-- **Identity and access:** Microsoft Entra ID, Azure RBAC, Managed Identities, least privilege, and Key Vault.
-- **Security engineering:** Terraform, Azure Policy, Checkov, threat modelling, and security-focused automation.
+<table>
+<tr>
+<td width="33%" valign="top">
 
-## Selected Projects
+**01 · Cloud foundation**
 
-### [Togetherly Azure Platform](https://github.com/Faizankhan-cyber/togetherly-azure-platform)
+Learning Azure infrastructure, virtual networks, subnets, virtual machines, storage, and the way cloud resources fit together.
 
-A cloud platform build focused on deploying an application on Azure and strengthening the infrastructure around it.
+</td>
+<td width="33%" valign="top">
 
-- **Infrastructure:** Ubuntu, virtual networks, subnet design, NSGs, and Nginx.
-- **Security controls:** Managed Identity, Key Vault, Azure RBAC, and Azure Policy.
-- **Focus:** Secure infrastructure, identity-based access, and governance.
+**02 · Identity & access**
 
-### [Microsoft Entra ID & Azure RBAC Lab](https://github.com/Faizankhan-cyber/microsoft-entra-id-azure-rbac-standalone)
+Exploring Microsoft Entra ID, Azure RBAC, authentication, least privilege, and identity-based access.
 
-A hands-on identity and access management lab using Terraform.
+</td>
+<td width="33%" valign="top">
 
-- Works with Entra ID identities, groups, and Azure role assignments.
-- Uses Checkov to scan infrastructure code for security issues.
-- **Focus:** Least privilege and repeatable identity configuration.
+**03 · Security mindset**
 
-### [BountyVault](https://github.com/Faizankhan-cyber/bountyvault) · [Live Demo](https://bountyvault-project.vercel.app/)
+Building an understanding of network security, secure configuration, Zero Trust, threat modelling, and cloud governance.
 
-A blockchain-based bounty escrow application built on Algorand Testnet with Team Block Rookies.
+</td>
+</tr>
+</table>
 
-- Contributed as backend lead, working on the API and escrow workflow.
-- Built with Python ARC4, Node.js, Express, and SQLite, with a React and TypeScript frontend.
-- **Focus:** Escrow logic, transaction flow, and wallet integration.
+## Selected work
 
-### [ThreatLens](https://github.com/Faizankhan-cyber/ThreatLens) · [Live Demo](https://threatlens-project.vercel.app/)
+These projects reflect the areas I have been exploring, from cloud infrastructure and identity controls to application security and backend development.
+
+### Cloud & security
+
+<table>
+<tr>
+<td width="50%" valign="top">
+
+**[Togetherly Azure Platform](https://github.com/Faizankhan-cyber/togetherly-azure-platform)**
+
+A cloud platform project focused on deploying an application on Azure and strengthening the infrastructure around it.
+
+- Azure virtual network and subnet design
+- Network Security Groups and Linux workloads
+- Managed Identity, Key Vault, RBAC, and Azure Policy
+
+<sub>AZURE · CLOUD INFRASTRUCTURE · SECURITY</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**[Microsoft Entra ID & Azure RBAC Lab](https://github.com/Faizankhan-cyber/microsoft-entra-id-azure-rbac-standalone)**
+
+A practical identity and access management lab using Terraform.
+
+- Entra ID identities, groups, and role assignments
+- Least-privilege access design
+- Checkov scans for infrastructure-as-code
+
+<sub>ENTRA ID · IAM · TERRAFORM</sub>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+**[Secure Linux Web Server on Azure](https://github.com/Faizankhan-cyber/secure-linux-web-server-azure)**
+
+A Linux web server deployment built to practise the cloud infrastructure basics behind a secure workload.
+
+- Ubuntu VM and Azure networking
+- NSG rules and SSH key authentication
+- Nginx web server deployment
+
+<sub>AZURE · LINUX · NETWORK SECURITY</sub>
+
+</td>
+<td width="50%" valign="top">
+
+**[ThreatLens](https://github.com/Faizankhan-cyber/ThreatLens) · [Live demo](https://threatlens-project.vercel.app/)**
 
 An AI-assisted fraud and phishing triage application developed for the SIH 2026 internal round.
 
-- Supports analysis of suspicious URLs, messages, emails, QR codes, and phone numbers.
-- Built with React, TypeScript, Vite, and Tailwind CSS.
-- **Focus:** Making suspicious digital activity easier to inspect and understand.
+- Inspects suspicious URLs, messages, emails, QR codes, and phone numbers
+- Built with React, TypeScript, Vite, and Tailwind CSS
 
-<details>
-<summary><strong>More projects and labs</strong></summary>
+<sub>CYBERSECURITY · THREAT TRIAGE · SIH 2026</sub>
 
-- [Secure Linux Web Server on Azure](https://github.com/Faizankhan-cyber/secure-linux-web-server-azure) — Ubuntu web server deployment using Azure networking, NSGs, SSH key authentication, and Nginx.
-- [Togetherly Workforce](https://github.com/Faizankhan-cyber/togetherly-workforce) · [Live Demo](https://togetherly-tinyfish.vercel.app/) — Workforce allocation application built with React, TypeScript, Supabase, and Tailwind CSS.
+</td>
+</tr>
+</table>
 
-</details>
+### Other builds
 
----
+**[BountyVault](https://github.com/Faizankhan-cyber/bountyvault)** · [Live demo](https://bountyvault-project.vercel.app/)
 
-## Tools & Technologies
+A blockchain-based bounty escrow application built on Algorand Testnet with Team Block Rookies. I contributed as **backend lead**, working on the API and escrow workflow.
 
-**Cloud and identity**  
-Microsoft Azure · Microsoft Entra ID · Azure RBAC · Azure Policy · Key Vault · Ubuntu Linux
+<sub>PYTHON ARC4 · NODE.JS · EXPRESS · SQLITE · ALGORAND</sub>
 
-**Infrastructure and security**  
-Terraform · Azure Bicep · Checkov · Network Security Groups · Zero Trust concepts · STRIDE
+**[Togetherly Workforce](https://github.com/Faizankhan-cyber/togetherly-workforce)** · [Live demo](https://togetherly-tinyfish.vercel.app/)
 
-**Development**  
-Python · Bash · PowerShell · JavaScript · TypeScript · React · Node.js · SQLite · SQL
+A workforce allocation application built with React, TypeScript, Supabase, and Tailwind CSS.
+
+<sub>REACT · TYPESCRIPT · SUPABASE</sub>
 
 ---
 
-## Certifications
+## Tools I use and explore
 
-- **Microsoft Certified: Security, Compliance, and Identity Fundamentals (SC-900)** — Passed
-- **Microsoft Certified: Azure Fundamentals (AZ-900)** — Passed
-- **Microsoft Azure Administrator (AZ-104)** — In progress
+<p>
+<img src="https://img.shields.io/badge/Microsoft_Azure-0078D4?style=flat-square&logo=microsoftazure&logoColor=white" alt="Microsoft Azure" />
+<img src="https://img.shields.io/badge/Microsoft_Entra_ID-5E5E5E?style=flat-square&logo=microsoft&logoColor=white" alt="Microsoft Entra ID" />
+<img src="https://img.shields.io/badge/Terraform-7B42BC?style=flat-square&logo=terraform&logoColor=white" alt="Terraform" />
+<img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/PowerShell-5391FE?style=flat-square&logo=powershell&logoColor=white" alt="PowerShell" />
+<img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
+<img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+<img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+<img src="https://img.shields.io/badge/Node.js-339933?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+<img src="https://img.shields.io/badge/React-20232A?style=flat-square&logo=react&logoColor=61DAFB" alt="React" />
+<img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+</p>
 
-## Additional Learning
+## Certifications & learning
 
-- Cisco — Introduction to Cybersecurity
-- TryHackMe — Pre-Security
-- Deloitte — Cyber Job Simulation (Forage)
-- Linux System Engineering & Virtualization — CentOS
-- GirlScript Summer of Code 2026 — Contributor
+| Certification | Status |
+|---|---|
+| Microsoft Security, Compliance, and Identity Fundamentals · **SC-900** | **Passed** |
+| Microsoft Azure Fundamentals · **AZ-900** | **Passed** |
+| Microsoft Azure Administrator · **AZ-104** | In progress |
+
+**Additional learning**
+
+- Cisco · Introduction to Cybersecurity
+- TryHackMe · Pre-Security
+- Deloitte · Cyber Job Simulation (Forage)
+- Linux System Engineering & Virtualization · CentOS
+
+## How I approach learning
+
+- **Build it:** create a working environment instead of stopping at videos and notes.
+- **Understand access:** know which identity can reach which resource, and why.
+- **Test the controls:** check network rules, permissions, and configuration rather than assuming they are secure.
+- **Document the work:** keep the setup, decisions, issues, and lessons visible in the project.
 
 ---
 
 <div align="center">
 
-*Learning by building. Improving by securing.*
+**Learning Azure. Working towards Cloud Security.**
+
+<sub>Build with intent · Understand the risk · Secure by design</sub>
 
 </div>
