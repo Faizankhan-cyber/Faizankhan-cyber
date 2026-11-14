@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/cloud-security-banner.svg" width="100%" alt="Faizan Khan — Azure Cloud Infrastructure and Security" />
+<img src="./assets/faizan-cyber-hero.svg" width="100%" alt="Faizan Khan — Azure Cloud Infrastructure and Security" />
 
 <br/><br/>
 
