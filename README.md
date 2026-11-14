@@ -1,7 +1,9 @@
 <div align="center">
 
-<!-- Header Banner -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0F172A,50:1E3A8A,100:0284C7&height=180&section=header&text=Faizan%20Khan&fontSize=44&fontColor=FFFFFF&fontAlignY=38&desc=Cloud%20Infrastructure%20%26%20Cybersecurity%20Builder&descSize=18&descAlignY=62&animation=fadeIn" width="100%" alt="Faizan Khan Banner" />
+<!-- Self-Hosted Profile Banner -->
+<img src="./assets/banner.svg" width="100%" alt="Faizan Khan — Cloud Infrastructure & Cybersecurity Builder" />
+
+<br />
 
 <p align="center">
   <a href="https://faizankhank.vercel.app">
