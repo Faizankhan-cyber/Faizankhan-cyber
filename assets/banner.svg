@@ -1,77 +1,80 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
-  <title id="title">Faizan Khan | Azure and Cloud Security</title>
-  <desc id="desc">A detailed cloud architecture blueprint showing an Azure-inspired virtual network, segmented workloads, identity control, key management and monitoring.</desc>
-  <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#071321"/><stop offset=".58" stop-color="#0C1C2E"/><stop offset="1" stop-color="#10243A"/></linearGradient>
-    <linearGradient id="blue" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#7DD3FC"/><stop offset="1" stop-color="#3285D5"/></linearGradient>
-    <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#35B9C9"/><stop offset="1" stop-color="#7AE0C3"/></linearGradient>
-    <pattern id="grid" width="24" height="24" patternUnits="userSpaceOnUse"><path d="M24 0H0V24" fill="none" stroke="#29415A" stroke-width=".65" opacity=".42"/></pattern>
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-  </defs>
-  <rect width="1200" height="360" rx="16" fill="url(#bg)"/>
-  <rect width="1200" height="360" rx="16" fill="url(#grid)" opacity=".55"/>
-  <path d="M0 1H1200" stroke="#31516D"/>
-  <path d="M62 65V294" stroke="url(#blue)" stroke-width="3" stroke-linecap="round"/>
-  <g font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="96" y="118" fill="#F4F8FC" font-size="54" font-weight="680" letter-spacing="-2">Faizan Khan</text>
-    <text x="99" y="159" fill="#9EB3C9" font-size="17" letter-spacing="2.4">CLOUD SECURITY · AZURE</text>
-    <path d="M99 184H455" stroke="#36516D"/>
-    <text x="99" y="218" fill="#D8E5F1" font-size="18">Learning Azure. Building a security-first mindset.</text>
-    <text x="99" y="254" fill="#7891AA" font-size="12" font-weight="600" letter-spacing="2">IDENTITY  /  NETWORK  /  GOVERNANCE  /  DEFENCE</text>
-    <text x="99" y="310" fill="#5F7892" font-size="11" letter-spacing="2">BENGALURU, INDIA  ·  BCA</text>
-  </g>
-
-  <!-- Architecture blueprint -->
-  <g transform="translate(590 24)" font-family="Inter, Segoe UI, Arial, sans-serif">
-    <text x="24" y="17" fill="#7792AC" font-size="10" letter-spacing="2">CLOUD SECURITY BLUEPRINT</text>
-    <rect x="18" y="32" width="552" height="274" rx="15" fill="#0A1929" fill-opacity=".72" stroke="#36516D" stroke-width="1.2"/>
-    <rect x="34" y="48" width="520" height="242" rx="10" fill="none" stroke="#27445F" stroke-dasharray="4 6"/>
-    <text x="51" y="69" fill="#6FA8D9" font-size="10" letter-spacing="1.8">AZURE VIRTUAL NETWORK</text>
-
-    <!-- Identity perimeter and access path -->
-    <rect x="46" y="87" width="104" height="62" rx="8" fill="#102B3A" stroke="#4BC7B4" stroke-width="1.2"/>
-    <circle cx="68" cy="108" r="10" fill="none" stroke="#7DE0CC" stroke-width="1.5"/>
-    <path d="M63 108L67 112L74 103" fill="none" stroke="#7DE0CC" stroke-width="1.5"/>
-    <text x="84" y="108" fill="#D8F7EF" font-size="10" font-weight="600">IDENTITY</text>
-    <text x="59" y="131" fill="#83AFA9" font-size="9">Entra ID · RBAC</text>
-    <path d="M150 118H184" stroke="url(#teal)" stroke-width="2" stroke-dasharray="4 4"/>
-    <path d="M177 112L184 118L177 124" fill="none" stroke="#71D9C5" stroke-width="1.5"/>
-
-    <!-- Network boundary -->
-    <rect x="188" y="84" width="342" height="174" rx="11" fill="#10253A" fill-opacity=".56" stroke="#4B82B4" stroke-width="1.3"/>
-    <text x="205" y="104" fill="#8CCBFA" font-size="10" letter-spacing="1.5">NETWORK SECURITY BOUNDARY</text>
-    <path d="M204 115H514" stroke="#355775" stroke-width="1"/>
-    <rect x="204" y="126" width="146" height="112" rx="7" fill="#0D2033" stroke="#3D6689"/>
-    <rect x="365" y="126" width="149" height="112" rx="7" fill="#0D2033" stroke="#3D6689"/>
-    <text x="217" y="144" fill="#8BAAC6" font-size="9" letter-spacing="1">WEB SUBNET</text>
-    <text x="378" y="144" fill="#8BAAC6" font-size="9" letter-spacing="1">PRIVATE SUBNET</text>
-    <!-- Web workload -->
-    <rect x="219" y="157" width="116" height="62" rx="5" fill="#14304A" stroke="#4B91CC"/>
-    <rect x="230" y="168" width="19" height="15" rx="2" fill="none" stroke="#7CC7F8"/>
-    <path d="M230 188H249M239.5 183V188" stroke="#7CC7F8"/>
-    <text x="257" y="177" fill="#DCEBFA" font-size="10">WEB VM</text>
-    <text x="230" y="205" fill="#83A4C2" font-size="9">NSG · SSH · HTTPS</text>
-    <!-- Private data / secrets -->
-    <path d="M383 167H397V181H383Z" fill="none" stroke="#7ADCC7" stroke-width="1.4"/>
-    <path d="M386 167V162A4 4 0 0 1 394 162V167" fill="none" stroke="#7ADCC7" stroke-width="1.4"/>
-    <text x="404" y="177" fill="#D9F3ED" font-size="10">KEY VAULT</text>
-    <text x="380" y="205" fill="#83A4C2" font-size="9">Secrets · Managed ID</text>
-    <path d="M350 188H365" stroke="#70C9D8" stroke-width="1.7"/>
-    <circle cx="357.5" cy="188" r="2.5" fill="#70C9D8"/>
-    <!-- Monitoring rail -->
-    <path d="M277 238V272H430V238" fill="none" stroke="#D0A76A" stroke-width="1.3" stroke-dasharray="4 4"/>
-    <rect x="315" y="259" width="112" height="25" rx="6" fill="#302A20" stroke="#9C8055"/>
-    <path d="M329 272L335 266L341 275L347 269L353 272" fill="none" stroke="#E7BD7B" stroke-width="1.3"/>
-    <text x="360" y="275" fill="#EAD2A8" font-size="9">MONITOR</text>
-    <!-- signal nodes -->
-    <circle cx="184" cy="118" r="3.5" fill="#70D9C5" filter="url(#glow)"/>
-    <circle cx="277" cy="238" r="3" fill="#D7AD70"/>
-    <circle cx="430" cy="238" r="3" fill="#D7AD70"/>
-    <text x="48" y="177" fill="#5F7F9C" font-size="9">TRUST</text>
-    <text x="48" y="190" fill="#5F7F9C" font-size="9">BOUNDARY</text>
-    <path d="M50 201H150" stroke="#29445D"/>
-    <text x="48" y="220" fill="#7894AE" font-size="9">Least privilege</text>
-    <text x="48" y="234" fill="#7894AE" font-size="9">by design</text>
-  </g>
-  <rect x=".5" y=".5" width="1199" height="359" rx="15.5" fill="none" stroke="#2A4057"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+<title id="title">Faizan Khan | Azure Cloud Security</title>
+<desc id="desc">A cloud security operations blueprint with an Azure cloud, identity perimeter, segmented network, protected workload, key vault, policy and monitoring layers.</desc>
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#06111F"/><stop offset=".55" stop-color="#0B1D32"/><stop offset="1" stop-color="#102A43"/></linearGradient>
+ <linearGradient id="azure" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#6ED0FF"/><stop offset="1" stop-color="#2877D0"/></linearGradient>
+ <linearGradient id="teal" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#31C6C0"/><stop offset="1" stop-color="#8BE2C5"/></linearGradient>
+ <pattern id="grid" width="26" height="26" patternUnits="userSpaceOnUse"><path d="M26 0H0V26" fill="none" stroke="#24415C" stroke-width=".7" opacity=".55"/></pattern>
+ <filter id="soft"><feGaussianBlur stdDeviation="7"/></filter>
+</defs>
+<rect width="1200" height="420" rx="18" fill="url(#bg)"/><rect width="1200" height="420" rx="18" fill="url(#grid)"/>
+<path d="M0 1H1200M0 419H1200" stroke="#35516B"/>
+<path d="M66 66V346" stroke="url(#azure)" stroke-width="4" stroke-linecap="round"/>
+<g font-family="Inter,Segoe UI,Arial,sans-serif">
+ <text x="104" y="123" fill="#F4F8FC" font-size="58" font-weight="700" letter-spacing="-2">Faizan Khan</text>
+ <text x="108" y="170" fill="#77C9F6" font-size="17" font-weight="650" letter-spacing="3.2">AZURE  /  CLOUD SECURITY</text>
+ <path d="M108 195H476" stroke="#36536F"/>
+ <text x="108" y="235" fill="#E0EAF4" font-size="20">Learning the cloud. Understanding how to defend it.</text>
+ <text x="108" y="278" fill="#8FA8C0" font-size="12" font-weight="600" letter-spacing="2">IDENTITY  ·  NETWORKS  ·  GOVERNANCE  ·  THREAT DEFENCE</text>
+ <g transform="translate(108 316)">
+  <rect width="108" height="27" rx="13.5" fill="#102D48" stroke="#28618D"/><text x="54" y="18" text-anchor="middle" fill="#A8D9F7" font-size="10" letter-spacing="1">AZURE</text>
+  <rect x="118" width="125" height="27" rx="13.5" fill="#103238" stroke="#267A76"/><text x="180" y="18" text-anchor="middle" fill="#A5E9D8" font-size="10" letter-spacing="1">IDENTITY</text>
+  <rect x="253" width="132" height="27" rx="13.5" fill="#29291F" stroke="#786C42"/><text x="319" y="18" text-anchor="middle" fill="#E6D59D" font-size="10" letter-spacing="1">SECURITY</text>
+ </g>
+ <text x="108" y="383" fill="#6F89A3" font-size="11" letter-spacing="2">BENGALURU, INDIA  ·  BCA STUDENT</text>
+</g>
+<!-- right-side technical architecture canvas -->
+<g transform="translate(585 30)" font-family="Inter,Segoe UI,Arial,sans-serif">
+ <rect x="0" y="0" width="570" height="360" rx="16" fill="#071827" fill-opacity=".86" stroke="#35536F" stroke-width="1.4"/>
+ <path d="M18 42H552" stroke="#29455F"/>
+ <text x="24" y="27" fill="#83A9C9" font-size="10" font-weight="600" letter-spacing="2">REFERENCE ARCHITECTURE  /  CLOUD SECURITY</text>
+ <!-- cloud silhouette -->
+ <path d="M200 92C184 92 172 80 172 65C172 51 183 40 197 39C204 20 222 9 243 13C258 15 269 25 274 39C292 36 309 49 309 67C309 81 298 92 284 92Z" fill="#102E49" stroke="#5CAEE5" stroke-width="1.7"/>
+ <path d="M212 58L239 43L267 58V78L239 91L212 78Z" fill="#133B5B" stroke="#77CCF6" stroke-width="1.3"/>
+ <path d="M239 43V91M212 58L267 78M267 58L212 78" stroke="#4C94C8" stroke-width="1"/>
+ <text x="239" y="108" text-anchor="middle" fill="#9ACDF0" font-size="9" letter-spacing="1.4">CLOUD PLATFORM</text>
+ <!-- downlink -->
+ <path d="M239 110V137" stroke="#63B9E9" stroke-width="1.7" stroke-dasharray="4 4"/>
+ <circle cx="239" cy="137" r="3" fill="#7DD3FC"/>
+ <!-- main security boundary -->
+ <rect x="24" y="146" width="522" height="178" rx="12" fill="#0C2032" stroke="#4A7395" stroke-width="1.4"/>
+ <text x="42" y="166" fill="#8DB9DB" font-size="9" letter-spacing="1.8">VIRTUAL NETWORK  /  SEGMENTED WORKLOADS</text>
+ <!-- identity lane -->
+ <rect x="42" y="182" width="108" height="105" rx="8" fill="#102E36" stroke="#4BBBAA"/>
+ <circle cx="96" cy="210" r="17" fill="#143F45" stroke="#78DCC7" stroke-width="1.4"/>
+ <path d="M88 210V205A8 8 0 0 1 104 205V210M85 210H107V225H85Z" fill="none" stroke="#B2F2DF" stroke-width="1.5"/>
+ <circle cx="96" cy="217" r="2" fill="#B2F2DF"/>
+ <text x="96" y="246" text-anchor="middle" fill="#D7F7EE" font-size="10" font-weight="600">IDENTITY</text>
+ <text x="96" y="261" text-anchor="middle" fill="#8FC7BA" font-size="8.5">Entra ID · RBAC</text>
+ <text x="96" y="275" text-anchor="middle" fill="#8FC7BA" font-size="8.5">Least privilege</text>
+ <!-- controlled route -->
+ <path d="M150 235H179" stroke="url(#teal)" stroke-width="2" stroke-dasharray="4 3"/>
+ <path d="M172 229L179 235L172 241" fill="none" stroke="#78DCC7" stroke-width="1.5"/>
+ <!-- subnet cards -->
+ <rect x="184" y="182" width="158" height="105" rx="8" fill="#102941" stroke="#4D8DC0"/>
+ <text x="198" y="200" fill="#9DCDF0" font-size="9" letter-spacing="1">PUBLIC / WEB</text>
+ <rect x="199" y="211" width="128" height="43" rx="5" fill="#143A59" stroke="#4E91C3"/>
+ <rect x="210" y="221" width="18" height="15" rx="2" fill="none" stroke="#8BD2F8"/>
+ <path d="M210 240H228M219 236V240" stroke="#8BD2F8"/>
+ <text x="238" y="231" fill="#E0F2FE" font-size="10">LINUX VM</text>
+ <text x="198" y="273" fill="#8FAFC9" font-size="8.5">NSG · SSH · HTTPS</text>
+ <rect x="357" y="182" width="171" height="105" rx="8" fill="#102C2D" stroke="#4A9B88"/>
+ <text x="371" y="200" fill="#A5E3D1" font-size="9" letter-spacing="1">PRIVATE / DATA</text>
+ <path d="M374 219H392V238H374Z" fill="none" stroke="#8CE0C8" stroke-width="1.4"/>
+ <path d="M378 219V214A5 5 0 0 1 388 214V219" fill="none" stroke="#8CE0C8" stroke-width="1.4"/>
+ <text x="401" y="231" fill="#D8F7ED" font-size="10">KEY VAULT</text>
+ <text x="371" y="256" fill="#9BCABD" font-size="8.5">Secrets · Managed Identity</text>
+ <text x="371" y="273" fill="#9BCABD" font-size="8.5">Private access path</text>
+ <!-- telemetry / governance rail -->
+ <path d="M263 287V305H439V287" fill="none" stroke="#D5B36E" stroke-width="1.3" stroke-dasharray="4 4"/>
+ <rect x="275" y="298" width="151" height="19" rx="5" fill="#332D20" stroke="#907B4D"/>
+ <path d="M286 308L292 303L298 311L304 306L310 308" fill="none" stroke="#E7C782" stroke-width="1.1"/>
+ <text x="318" y="311" fill="#EAD8AC" font-size="8.5">POLICY + MONITORING</text>
+ <!-- legend -->
+ <circle cx="43" cy="343" r="3" fill="#6CCAF6"/><text x="53" y="346" fill="#7898B4" font-size="8.5">Cloud infrastructure</text>
+ <circle cx="190" cy="343" r="3" fill="#65D4BD"/><text x="200" y="346" fill="#7898B4" font-size="8.5">Identity control</text>
+ <circle cx="321" cy="343" r="3" fill="#D5B36E"/><text x="331" y="346" fill="#7898B4" font-size="8.5">Governance & visibility</text>
+</g>
+<rect x=".5" y=".5" width="1199" height="419" rx="17.5" fill="none" stroke="#2B4560"/>
 </svg>
