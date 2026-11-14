@@ -1,62 +1,104 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="260" role="img" aria-label="Faizan Khan - Cloud Infrastructure and Cybersecurity Builder">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 310" width="100%" height="310" role="img" aria-label="Faizan Khan - Cloud Infrastructure and Security Architecture">
   <defs>
-    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#090D16" />
-      <stop offset="55%" stop-color="#0F172A" />
-      <stop offset="100%" stop-color="#1E3A8A" />
+    <linearGradient id="canvasBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060911" />
+      <stop offset="50%" stop-color="#0B1221" />
+      <stop offset="100%" stop-color="#0F172A" />
     </linearGradient>
-    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
-      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9" />
-      <stop offset="100%" stop-color="#818CF8" stop-opacity="0" />
+    <linearGradient id="panelBg" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#111C33" stop-opacity="0.92" />
+      <stop offset="100%" stop-color="#0B1324" stop-opacity="0.96" />
     </linearGradient>
-    <radialGradient id="glowRight" cx="85%" cy="30%" r="55%">
-      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.32" />
-      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    <linearGradient id="cyanEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0EA5E9" />
+      <stop offset="100%" stop-color="#38BDF8" />
+    </linearGradient>
+    <linearGradient id="emeraldEdge" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#10B981" />
+      <stop offset="100%" stop-color="#34D399" />
+    </linearGradient>
+    <radialGradient id="topGlow" cx="72%" cy="45%" r="52%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.22" />
+      <stop offset="60%" stop-color="#1D4ED8" stop-opacity="0.08" />
+      <stop offset="100%" stop-color="#060911" stop-opacity="0" />
     </radialGradient>
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38BDF8" stroke-width="0.6" stroke-opacity="0.09" />
+    <pattern id="dotGrid" width="24" height="24" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="0.9" fill="#334155" fill-opacity="0.55" />
     </pattern>
   </defs>
 
-  <!-- Base & Grid -->
-  <rect width="1200" height="260" rx="14" fill="url(#bgGrad)" />
-  <rect width="1200" height="260" rx="14" fill="url(#grid)" />
-  <rect width="1200" height="260" rx="14" fill="url(#glowRight)" />
-  <rect x="0.75" y="0.75" width="1198.5" height="258.5" rx="13.5" fill="none" stroke="#334155" stroke-width="1.5" />
+  <!-- Canvas Background -->
+  <rect width="1200" height="310" rx="14" fill="url(#canvasBg)" />
+  <rect width="1200" height="310" rx="14" fill="url(#dotGrid)" />
+  <rect width="1200" height="310" rx="14" fill="url(#topGlow)" />
+  <rect x="0.75" y="0.75" width="1198.5" height="308.5" rx="13.5" fill="none" stroke="#1E293B" stroke-width="1.5" />
 
-  <!-- Decorative Architectural Nodes (Right) -->
-  <g stroke="#38BDF8" stroke-opacity="0.28" stroke-width="1.5" fill="none">
-    <polygon points="1030,52 1085,84 1085,148 1030,180 975,148 975,84" />
-    <polygon points="1030,74 1066,95 1066,137 1030,158 994,137 994,95" stroke="#818CF8" stroke-opacity="0.35" />
-    <line x1="910" y1="116" x2="975" y2="116" stroke-dasharray="4 4" />
-    <line x1="1085" y1="116" x2="1145" y2="116" stroke-dasharray="4 4" />
-    <line x1="1030" y1="22" x2="1030" y2="52" stroke-dasharray="4 4" />
-    <line x1="1030" y1="180" x2="1030" y2="215" stroke-dasharray="4 4" />
+  <!-- Top Terminal Header Strip -->
+  <rect x="1" y="1" width="1198" height="34" rx="13" fill="#0D1526" />
+  <line x1="1" y1="35" x2="1199" y2="35" stroke="#1E293B" stroke-width="1" />
+  <circle cx="24" cy="18" r="5" fill="#EF4444" fill-opacity="0.85" />
+  <circle cx="42" cy="18" r="5" fill="#F59E0B" fill-opacity="0.85" />
+  <circle cx="60" cy="18" r="5" fill="#10B981" fill-opacity="0.85" />
+  <text x="84" y="22" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="12" fill="#64748B">faizan@azure-sec:~/togetherly-platform$ ./verify-zero-trust.sh --env prod</text>
+  <rect x="1038" y="8" width="140" height="20" rx="10" fill="#10B981" fill-opacity="0.14" stroke="#10B981" stroke-opacity="0.4" stroke-width="1" />
+  <circle cx="1052" cy="18" r="3.5" fill="#10B981" />
+  <text x="1062" y="22" font-family="'SFMono-Regular', Consolas, monospace" font-size="10.5" font-weight="600" fill="#34D399">POLICY: ENFORCED</text>
+
+  <!-- LEFT COLUMN: Identity & Positioning -->
+  <text x="48" y="82" font-family="'SFMono-Regular', Consolas, monospace" font-size="12.5" font-weight="600" fill="#38BDF8" letter-spacing="1.4">// CLOUD ARCHITECTURE &amp; SECURITY</text>
+  <text x="48" y="132" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="46" font-weight="800" fill="#F8FAFC" letter-spacing="-0.8">Faizan Khan</text>
+  <text x="48" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="17.5" font-weight="500" fill="#94A3B8">Building &amp; Hardening Azure Infrastructure · IAM · Zero Trust</text>
+
+  <!-- Credential & Focus Pills -->
+  <g font-family="'SFMono-Regular', Consolas, monospace" font-size="11.5" font-weight="600">
+    <rect x="48" y="190" width="144" height="28" rx="6" fill="#0EA5E9" fill-opacity="0.14" stroke="#0EA5E9" stroke-opacity="0.45" />
+    <text x="62" y="208" fill="#7DD3FC">SC-900 Certified</text>
+
+    <rect x="202" y="190" width="154" height="28" rx="6" fill="#1E293B" stroke="#334155" />
+    <text x="215" y="208" fill="#E2E8F0">AZ-900 · AZ-104</text>
+
+    <rect x="366" y="190" width="166" height="28" rx="6" fill="#1E293B" stroke="#334155" />
+    <text x="380" y="208" fill="#E2E8F0">Bengaluru, India</text>
   </g>
-  <g fill="#38BDF8">
-    <circle cx="1030" cy="116" r="6" fill="#38BDF8" />
-    <circle cx="1030" cy="116" r="13" fill="none" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.5" />
-    <circle cx="975" cy="84" r="3.5" />
-    <circle cx="1085" cy="84" r="3.5" />
-    <circle cx="1085" cy="148" r="3.5" />
-    <circle cx="975" cy="148" r="3.5" />
-  </g>
 
-  <!-- Status Pill -->
-  <rect x="64" y="46" width="256" height="28" rx="14" fill="#0EA5E9" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1" />
-  <circle cx="82" cy="60" r="4" fill="#22C55E" />
-  <text x="95" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7DD3FC" letter-spacing="0.8">BUILD · SECURE · GOVERN</text>
+  <!-- Core Stack Footer Left -->
+  <text x="48" y="256" font-family="'SFMono-Regular', Consolas, monospace" font-size="12" fill="#64748B">STACK &gt; <tspan fill="#CBD5E1">Azure · Entra ID · RBAC · Key Vault · Terraform · Checkov · Python</tspan></text>
+  <line x1="48" y1="274" x2="545" y2="274" stroke="url(#cyanEdge)" stroke-width="2" stroke-opacity="0.65" />
 
-  <!-- Main Title -->
-  <text x="64" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5">Faizan Khan</text>
+  <!-- RIGHT COLUMN: Bespoke Zero-Trust Reference Topology Card -->
+  <rect x="580" y="54" width="584" height="232" rx="10" fill="url(#panelBg)" stroke="#1E293B" stroke-width="1.5" />
+  <text x="600" y="78" font-family="'SFMono-Regular', Consolas, monospace" font-size="11" font-weight="700" fill="#38BDF8" letter-spacing="1">REFERENCE ARCHITECTURE // ZERO-TRUST CONTROL PLANE</text>
+  <line x1="580" y1="88" x2="1164" y2="88" stroke="#1E293B" stroke-width="1" />
 
-  <!-- Subtitle -->
-  <text x="64" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#93C5FD">Cloud Infrastructure &amp; Cybersecurity Builder</text>
+  <!-- Node 1: Entra ID + RBAC -->
+  <rect x="600" y="106" width="156" height="68" rx="8" fill="#0F172A" stroke="#0EA5E9" stroke-width="1.3" />
+  <text x="614" y="128" font-family="'SFMono-Regular', Consolas, monospace" font-size="10.5" font-weight="700" fill="#38BDF8">IDENTITY PLANE</text>
+  <text x="614" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#F1F5F9">Entra ID &amp; RBAC</text>
+  <text x="614" y="162" font-family="'SFMono-Regular', Consolas, monospace" font-size="10" fill="#94A3B8">Least-Privilege IAM</text>
 
-  <!-- Focus Tags -->
-  <text x="64" y="204" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#CBD5E1">Azure  ·  Microsoft Entra ID  ·  IAM &amp; Zero Trust  ·  Terraform  ·  Python</text>
+  <!-- Connector 1 -> 2 -->
+  <line x1="756" y1="140" x2="796" y2="140" stroke="#38BDF8" stroke-width="1.5" stroke-dasharray="3 3" />
+  <polygon points="796,136 804,140 796,144" fill="#38BDF8" />
 
-  <!-- Bottom Accent Line -->
-  <rect x="64" y="232" width="1072" height="2" fill="url(#accentLine)" />
+  <!-- Node 2: Managed Identity + Key Vault -->
+  <rect x="804" y="106" width="164" height="68" rx="8" fill="#0F172A" stroke="#818CF8" stroke-width="1.3" />
+  <text x="818" y="128" font-family="'SFMono-Regular', Consolas, monospace" font-size="10.5" font-weight="700" fill="#A5B4FC">SECRETS &amp; AUTH</text>
+  <text x="818" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#F1F5F9">Azure Key Vault</text>
+  <text x="818" y="162" font-family="'SFMono-Regular', Consolas, monospace" font-size="10" fill="#94A3B8">Managed Identity OIDC</text>
+
+  <!-- Connector 2 -> 3 -->
+  <line x1="968" y1="140" x2="1004" y2="140" stroke="#10B981" stroke-width="1.5" stroke-dasharray="3 3" />
+  <polygon points="1004,136 1012,140 1004,144" fill="#10B981" />
+
+  <!-- Node 3: Hardened Compute / VNet -->
+  <rect x="1012" y="106" width="134" height="68" rx="8" fill="#0F172A" stroke="#10B981" stroke-width="1.3" />
+  <text x="1024" y="128" font-family="'SFMono-Regular', Consolas, monospace" font-size="10.5" font-weight="700" fill="#34D399">WORKLOAD</text>
+  <text x="1024" y="146" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif" font-size="13" font-weight="700" fill="#F1F5F9">VNet + NSG</text>
+  <text x="1024" y="162" font-family="'SFMono-Regular', Consolas, monospace" font-size="10" fill="#94A3B8">Ubuntu · Nginx</text>
+
+  <!-- Bottom Governance & IaC Bar inside Topology Card -->
+  <rect x="600" y="194" width="546" height="74" rx="8" fill="#09101D" stroke="#1E293B" stroke-width="1" />
+  <text x="616" y="216" font-family="'SFMono-Regular', Consolas, monospace" font-size="10.5" font-weight="700" fill="#F59E0B">GOVERNANCE &amp; STATIC POLICY GUARDRAILS</text>
+  <text x="616" y="236" font-family="'SFMono-Regular', Consolas, monospace" font-size="11.5" fill="#CBD5E1">[✓] Azure Policy Guardrails   [✓] Terraform + Checkov Scan   [✓] Zero Hardcoded Secrets</text>
+  <line x1="616" y1="252" x2="1130" y2="252" stroke="url(#emeraldEdge)" stroke-width="1.5" stroke-opacity="0.55" />
 </svg>
