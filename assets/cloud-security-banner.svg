@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="380" viewBox="0 0 1200 380" role="img" aria-labelledby="bannerTitle bannerDesc">
+  <title id="bannerTitle">Faizan Khan - Azure Cloud Infrastructure and Security</title>
+  <desc id="bannerDesc">Banner for Faizan Khan showcasing Azure Cloud Infrastructure, Identity and Access Management, and Defense-in-Depth Architecture.</desc>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#060B14"/>
+      <stop offset="50%" stop-color="#0B1528"/>
+      <stop offset="100%" stop-color="#0F223D"/>
+    </linearGradient>
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0F1D33"/>
+      <stop offset="100%" stop-color="#091324"/>
+    </linearGradient>
+    <linearGradient id="accentBar" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#38BDF8"/>
+      <stop offset="50%" stop-color="#0284C7"/>
+      <stop offset="100%" stop-color="#10B981"/>
+    </linearGradient>
+    <linearGradient id="bottomLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0.9"/>
+      <stop offset="60%" stop-color="#10B981" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#0F223D" stop-opacity="0"/>
+    </linearGradient>
+    <pattern id="techGrid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#1E3A5F" stroke-width="0.7" stroke-opacity="0.45"/>
+    </pattern>
+  </defs>
+
+  <!-- Outer Canvas -->
+  <rect width="1200" height="380" rx="16" fill="url(#bgGrad)"/>
+  <rect width="1200" height="380" rx="16" fill="url(#techGrid)"/>
+  <rect x="1" y="1" width="1198" height="378" rx="15" fill="none" stroke="#1E3A5F" stroke-width="1.5"/>
+
+  <!-- Left Vertical Accent Bar -->
+  <rect x="48" y="46" width="5" height="288" rx="2.5" fill="url(#accentBar)"/>
+
+  <!-- LEFT COLUMN: Identity, Positioning & Credentials -->
+  <g font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+    <!-- Top Status Pill -->
+    <rect x="74" y="46" width="396" height="28" rx="14" fill="#0C2540" stroke="#0284C7" stroke-width="1.2"/>
+    <circle cx="92" cy="60" r="4.5" fill="#38BDF8"/>
+    <text x="106" y="64" fill="#7DD3FC" font-size="11.5" font-weight="700" letter-spacing="1.4">AZURE INFRASTRUCTURE  &#183;  IAM  &#183;  CLOUD SECURITY</text>
+
+    <!-- Main Name -->
+    <text x="74" y="132" fill="#F8FAFC" font-size="56" font-weight="800" letter-spacing="-1">Faizan Khan</text>
+
+    <!-- Role & Education -->
+    <text x="74" y="168" fill="#38BDF8" font-size="18.5" font-weight="600">Cloud Infrastructure &#38; Cybersecurity Learner</text>
+    <text x="74" y="196" fill="#94A3B8" font-size="14.5" font-weight="500">BCA (Cloud Architecture &#38; Cybersecurity) &#183; SSMRV College, Bengaluru</text>
+
+    <!-- Engineering Philosophy Quote Box -->
+    <rect x="74" y="218" width="470" height="44" rx="8" fill="#0B192E" stroke="#1E3A5F" stroke-width="1"/>
+    <text x="90" y="245" fill="#E2E8F0" font-size="13.5" font-style="italic">"Learn the concept, build it, test security controls, and document the proof."</text>
+
+    <!-- Bottom Credential & Focus Badges -->
+    <g transform="translate(74, 282)">
+      <rect x="0" y="0" width="152" height="30" rx="6" fill="#062E26" stroke="#10B981" stroke-width="1.2"/>
+      <circle cx="16" cy="15" r="4" fill="#10B981"/>
+      <text x="28" y="19" fill="#A7F3D0" font-size="11.5" font-weight="700" letter-spacing="0.5">SC-900 CERTIFIED</text>
+
+      <rect x="164" y="0" width="154" height="30" rx="6" fill="#172554" stroke="#3B82F6" stroke-width="1.2"/>
+      <text x="241" y="19" text-anchor="middle" fill="#BFDBFE" font-size="11.5" font-weight="700" letter-spacing="0.5">AZ-900 &#183; GH-900</text>
+
+      <rect x="330" y="0" width="140" height="30" rx="6" fill="#1E1B4B" stroke="#818CF8" stroke-width="1.2"/>
+      <text x="400" y="19" text-anchor="middle" fill="#E0E7FF" font-size="11.5" font-weight="700" letter-spacing="0.5">TERRAFORM &#183; IaC</text>
+    </g>
+
+    <rect x="74" y="330" width="470" height="2" fill="url(#bottomLine)"/>
+  </g>
+
+  <!-- RIGHT COLUMN: Defense-in-Depth Architecture Blueprint Card -->
+  <g transform="translate(580, 34)" font-family="Segoe UI, Inter, -apple-system, BlinkMacSystemFont, Roboto, Helvetica, Arial, sans-serif">
+    <rect x="0" y="0" width="576" height="312" rx="14" fill="url(#cardGrad)" stroke="#254670" stroke-width="1.5"/>
+
+    <!-- Card Header Bar -->
+    <rect x="1" y="1" width="574" height="40" rx="13" fill="#081120"/>
+    <line x1="1" y1="41" x2="575" y2="41" stroke="#1E3A5F" stroke-width="1"/>
+    <circle cx="22" cy="21" r="4.5" fill="#EF4444"/>
+    <circle cx="38" cy="21" r="4.5" fill="#F59E0B"/>
+    <circle cx="54" cy="21" r="4.5" fill="#10B981"/>
+    <text x="76" y="25" fill="#7DD3FC" font-family="Consolas, SFMono-Regular, Menlo, monospace" font-size="11.5" font-weight="700" letter-spacing="1.2">ARCHITECTURE // AZURE DEFENSE-IN-DEPTH STACK</text>
+    <rect x="462" y="10" width="96" height="22" rx="11" fill="#062E26" stroke="#10B981" stroke-width="1"/>
+    <text x="510" y="25" text-anchor="middle" fill="#34D399" font-family="Consolas, monospace" font-size="10" font-weight="700">ZERO TRUST</text>
+
+    <!-- Layer 1: Identity & Access -->
+    <g transform="translate(20, 56)">
+      <rect x="0" y="0" width="536" height="52" rx="8" fill="#0D213A" stroke="#0284C7" stroke-width="1.2"/>
+      <rect x="12" y="12" width="38" height="28" rx="6" fill="#082F49" stroke="#38BDF8" stroke-width="1"/>
+      <text x="31" y="30" text-anchor="middle" fill="#38BDF8" font-family="Consolas, monospace" font-size="12" font-weight="700">L1</text>
+      <text x="64" y="22" fill="#F1F5F9" font-size="13.5" font-weight="700">Identity &#38; Access Perimeter</text>
+      <text x="64" y="40" fill="#94A3B8" font-size="11.5">Microsoft Entra ID &#183; Security Groups &#183; Least-Privilege Azure RBAC</text>
+      <rect x="434" y="15" width="88" height="22" rx="5" fill="#082F49" stroke="#0284C7" stroke-width="1"/>
+      <text x="478" y="30" text-anchor="middle" fill="#7DD3FC" font-family="Consolas, monospace" font-size="10" font-weight="700">IAM SCOPED</text>
+    </g>
+
+    <!-- Layer 2: Network & Compute -->
+    <g transform="translate(20, 118)">
+      <rect x="0" y="0" width="536" height="52" rx="8" fill="#0D213A" stroke="#2563EB" stroke-width="1.2"/>
+      <rect x="12" y="12" width="38" height="28" rx="6" fill="#172554" stroke="#60A5FA" stroke-width="1"/>
+      <text x="31" y="30" text-anchor="middle" fill="#60A5FA" font-family="Consolas, monospace" font-size="12" font-weight="700">L2</text>
+      <text x="64" y="22" fill="#F1F5F9" font-size="13.5" font-weight="700">Segmented Network &#38; Linux Workloads</text>
+      <text x="64" y="40" fill="#94A3B8" font-size="11.5">Azure VNet &#183; Subnet Isolation &#183; NSG Rules &#183; SSH Key Auth &#183; Ubuntu + Nginx</text>
+      <rect x="434" y="15" width="88" height="22" rx="5" fill="#172554" stroke="#3B82F6" stroke-width="1"/>
+      <text x="478" y="30" text-anchor="middle" fill="#93C5FD" font-family="Consolas, monospace" font-size="10" font-weight="700">SEGMENTED</text>
+    </g>
+
+    <!-- Layer 3: Secrets & Workload Identity -->
+    <g transform="translate(20, 180)">
+      <rect x="0" y="0" width="536" height="52" rx="8" fill="#0D213A" stroke="#10B981" stroke-width="1.2"/>
+      <rect x="12" y="12" width="38" height="28" rx="6" fill="#062E26" stroke="#34D399" stroke-width="1"/>
+      <text x="31" y="30" text-anchor="middle" fill="#34D399" font-family="Consolas, monospace" font-size="12" font-weight="700">L3</text>
+      <text x="64" y="22" fill="#F1F5F9" font-size="13.5" font-weight="700">Secret Management &#38; Passwordless Auth</text>
+      <text x="64" y="40" fill="#94A3B8" font-size="11.5">Azure Key Vault &#183; System-Assigned Managed Identity &#183; Zero Hardcoded Secrets</text>
+      <rect x="434" y="15" width="88" height="22" rx="5" fill="#062E26" stroke="#10B981" stroke-width="1"/>
+      <text x="478" y="30" text-anchor="middle" fill="#6EE7B7" font-family="Consolas, monospace" font-size="10" font-weight="700">VAULTED</text>
+    </g>
+
+    <!-- Layer 4: Governance & IaC Security -->
+    <g transform="translate(20, 242)">
+      <rect x="0" y="0" width="536" height="52" rx="8" fill="#0D213A" stroke="#8B5CF6" stroke-width="1.2"/>
+      <rect x="12" y="12" width="38" height="28" rx="6" fill="#2E1065" stroke="#A78bfa" stroke-width="1"/>
+      <text x="31" y="30" text-anchor="middle" fill="#C4B5FD" font-family="Consolas, monospace" font-size="12" font-weight="700">L4</text>
+      <text x="64" y="22" fill="#F1F5F9" font-size="13.5" font-weight="700">Governance &#38; Policy-as-Code</text>
+      <text x="64" y="40" fill="#94A3B8" font-size="11.5">Azure Policy Guardrails &#183; Declarative Terraform &#183; Checkov Static Scans</text>
+      <rect x="434" y="15" width="88" height="22" rx="5" fill="#2E1065" stroke="#8B5CF6" stroke-width="1"/>
+      <text x="478" y="30" text-anchor="middle" fill="#DDD6FE" font-family="Consolas, monospace" font-size="10" font-weight="700">AUDITED</text>
+    </g>
+  </g>
+</svg>
