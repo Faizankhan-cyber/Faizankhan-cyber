@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Faizan Khan | Azure and Cloud Security" />
+<img src="https://raw.githubusercontent.com/Faizankhan-cyber/Faizankhan-cyber/main/assets/banner.svg" width="100%" alt="Faizan Khan | Azure and Cloud Security" />
 
 <br/>
 
@@ -122,18 +122,17 @@ A hands-on identity and access management lab built around repeatable infrastruc
 <tr>
 <td width="50%" valign="top">
 
-<h3>🖥️ <a href="https://github.com/Faizankhan-cyber/secure-linux-web-server-azure">Secure Linux Web Server on Azure</a></h3>
+<h3>👥 <a href="https://github.com/Faizankhan-cyber/togetherly-workforce">Togetherly Workforce</a></h3>
 
-A Linux web server deployment used to practise the building blocks of a secure cloud workload.
+A workforce allocation application built to organise people and work through a web-based interface.
 
 **What it explores**
-- Ubuntu virtual machine deployment
-- Azure networking and NSG rules
-- SSH key-based access
-- Nginx web server setup
+- React and TypeScript application development
+- Supabase integration
+- Workforce allocation workflows
+- Responsive interface development
 
-<img src="https://img.shields.io/badge/UBUNTU-E95420?style=flat-square&logo=ubuntu&logoColor=white" />
-<img src="https://img.shields.io/badge/NGINX-009639?style=flat-square&logo=nginx&logoColor=white" />
+<a href="https://togetherly-tinyfish.vercel.app/"><img src="https://img.shields.io/badge/OPEN_LIVE_DEMO-167C80?style=flat-square&logo=vercel&logoColor=white" alt="Togetherly Workforce live demo" /></a>
 
 </td>
 <td width="50%" valign="top">
@@ -158,7 +157,7 @@ An AI-assisted fraud and phishing triage application developed for the SIH 2026 
 | Project | What it is | My contribution |
 |---|---|---|
 | [BountyVault](https://github.com/Faizankhan-cyber/bountyvault) · [Live demo](https://bountyvault-project.vercel.app/) | Algorand Testnet bounty escrow application | Backend lead, API and escrow workflow |
-| [Togetherly Workforce](https://github.com/Faizankhan-cyber/togetherly-workforce) · [Live demo](https://togetherly-tinyfish.vercel.app/) | Workforce allocation application | Application development |
+| [Secure Linux Web Server on Azure](https://github.com/Faizankhan-cyber/secure-linux-web-server-azure) | Ubuntu web server deployment with Azure networking, NSG rules, SSH key access, and Nginx | Cloud infrastructure lab |
 
 ---
 
