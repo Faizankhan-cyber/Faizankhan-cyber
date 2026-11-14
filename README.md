@@ -236,18 +236,6 @@ GH-900 · Microsoft
 <tr>
 <td width="68%" valign="middle">
 
-**Microsoft Azure Administrator**
-
-AZ-104 · Microsoft
-
-</td>
-<td align="center" valign="middle">
-
-<img src="https://img.shields.io/badge/IN_PROGRESS-BA812B?style=for-the-badge" />
-
-</td>
-</tr>
-</table>
 
 ### Additional learning
 
