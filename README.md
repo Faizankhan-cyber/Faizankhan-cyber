@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/Faizankhan-cyber/Faizankhan-cyber/main/assets/banner.svg" width="100%" alt="Faizan Khan | Azure and Cloud Security" />
+<img src="./assets/banner.svg" width="100%" alt="Faizan Khan | Azure and Cloud Security" />
 
 <br/>
 
@@ -31,7 +31,7 @@ What interests me most is the security behind cloud systems:
 
 I enjoy turning these questions into practical labs and projects. My approach is simple: **learn the concept, build it, test it, document it, and improve it.**
 
-## 🎯 Current learning roadmap
+## 🧭 Current learning roadmap
 
 <table>
 <tr>
@@ -52,7 +52,7 @@ I enjoy turning these questions into practical labs and projects. My approach is
 
 - Microsoft Entra ID
 - Azure role-based access control
-- Authentication and authorisation
+- Authentication and authorization
 - Managed identities
 - Least-privilege access
 
@@ -80,9 +80,9 @@ My current learning path is centred on strengthening Azure administration knowle
 
 ---
 
-## 🧩 Featured projects
+## 🚀 Featured projects
 
-I use projects to explore real technical problems, practise implementation, and make my learning visible. These are selected builds across cloud infrastructure, identity, cybersecurity, and backend development.
+I use projects to explore real technical problems, practice implementation, and make my learning visible. These are selected builds across cloud infrastructure, identity, cybersecurity, and backend development.
 
 <table>
 <tr>
@@ -137,7 +137,7 @@ A workforce allocation application built to organise people and work through a w
 </td>
 <td width="50%" valign="top">
 
-<h3>🕵️ <a href="https://github.com/Faizankhan-cyber/ThreatLens">ThreatLens</a></h3>
+<h3>🛡️ <a href="https://github.com/Faizankhan-cyber/ThreatLens">ThreatLens</a></h3>
 
 An AI-assisted fraud and phishing triage application developed for the SIH 2026 internal round.
 
@@ -152,7 +152,7 @@ An AI-assisted fraud and phishing triage application developed for the SIH 2026 
 </tr>
 </table>
 
-### 🚀 Other builds
+### 🧩 Other builds
 
 | Project | What it is | My contribution |
 |---|---|---|
@@ -244,7 +244,7 @@ AZ-104 · Microsoft
 
 ---
 
-## 🧠 How I build and learn
+## 🧭 How I build and learn
 
 | Principle | How I apply it |
 |---|---|
