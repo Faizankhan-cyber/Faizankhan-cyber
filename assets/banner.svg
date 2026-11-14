@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 260" width="100%" height="260" role="img" aria-label="Faizan Khan - Cloud Infrastructure and Cybersecurity Builder">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090D16" />
+      <stop offset="55%" stop-color="#0F172A" />
+      <stop offset="100%" stop-color="#1E3A8A" />
+    </linearGradient>
+    <linearGradient id="accentLine" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38BDF8" stop-opacity="0" />
+      <stop offset="50%" stop-color="#38BDF8" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#818CF8" stop-opacity="0" />
+    </linearGradient>
+    <radialGradient id="glowRight" cx="85%" cy="30%" r="55%">
+      <stop offset="0%" stop-color="#0284C7" stop-opacity="0.32" />
+      <stop offset="100%" stop-color="#0284C7" stop-opacity="0" />
+    </radialGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#38BDF8" stroke-width="0.6" stroke-opacity="0.09" />
+    </pattern>
+  </defs>
+
+  <!-- Base & Grid -->
+  <rect width="1200" height="260" rx="14" fill="url(#bgGrad)" />
+  <rect width="1200" height="260" rx="14" fill="url(#grid)" />
+  <rect width="1200" height="260" rx="14" fill="url(#glowRight)" />
+  <rect x="0.75" y="0.75" width="1198.5" height="258.5" rx="13.5" fill="none" stroke="#334155" stroke-width="1.5" />
+
+  <!-- Decorative Architectural Nodes (Right) -->
+  <g stroke="#38BDF8" stroke-opacity="0.28" stroke-width="1.5" fill="none">
+    <polygon points="1030,52 1085,84 1085,148 1030,180 975,148 975,84" />
+    <polygon points="1030,74 1066,95 1066,137 1030,158 994,137 994,95" stroke="#818CF8" stroke-opacity="0.35" />
+    <line x1="910" y1="116" x2="975" y2="116" stroke-dasharray="4 4" />
+    <line x1="1085" y1="116" x2="1145" y2="116" stroke-dasharray="4 4" />
+    <line x1="1030" y1="22" x2="1030" y2="52" stroke-dasharray="4 4" />
+    <line x1="1030" y1="180" x2="1030" y2="215" stroke-dasharray="4 4" />
+  </g>
+  <g fill="#38BDF8">
+    <circle cx="1030" cy="116" r="6" fill="#38BDF8" />
+    <circle cx="1030" cy="116" r="13" fill="none" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1.5" />
+    <circle cx="975" cy="84" r="3.5" />
+    <circle cx="1085" cy="84" r="3.5" />
+    <circle cx="1085" cy="148" r="3.5" />
+    <circle cx="975" cy="148" r="3.5" />
+  </g>
+
+  <!-- Status Pill -->
+  <rect x="64" y="46" width="256" height="28" rx="14" fill="#0EA5E9" fill-opacity="0.14" stroke="#38BDF8" stroke-opacity="0.45" stroke-width="1" />
+  <circle cx="82" cy="60" r="4" fill="#22C55E" />
+  <text x="95" y="64" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="12.5" font-weight="600" fill="#7DD3FC" letter-spacing="0.8">BUILD · SECURE · GOVERN</text>
+
+  <!-- Main Title -->
+  <text x="64" y="128" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="48" font-weight="800" fill="#F8FAFC" letter-spacing="-0.5">Faizan Khan</text>
+
+  <!-- Subtitle -->
+  <text x="64" y="166" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif" font-size="20" font-weight="500" fill="#93C5FD">Cloud Infrastructure &amp; Cybersecurity Builder</text>
+
+  <!-- Focus Tags -->
+  <text x="64" y="204" font-family="'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace" font-size="14" fill="#CBD5E1">Azure  ·  Microsoft Entra ID  ·  IAM &amp; Zero Trust  ·  Terraform  ·  Python</text>
+
+  <!-- Bottom Accent Line -->
+  <rect x="64" y="232" width="1072" height="2" fill="url(#accentLine)" />
+</svg>
