@@ -1,14 +1,11 @@
 <div align="center">
 
-<img src="./assets/banner.svg" width="100%" alt="Faizan Khan | Azure and Cloud Security" />
-
-<br/>
+# Hi, I'm Faizan 👋
 
 <a href="https://faizankhank.vercel.app"><img src="https://img.shields.io/badge/EXPLORE_MY_PORTFOLIO-0878C9?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" /></a>
 <a href="https://www.linkedin.com/in/faizan-khan-khaleel"><img src="https://img.shields.io/badge/CONNECT_ON_LINKEDIN-155E91?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
 <a href="mailto:faizankhanex@gmail.com"><img src="https://img.shields.io/badge/CONTACT_ME-167C80?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
 
-<br/><br/>
 
 <img src="https://img.shields.io/badge/FOCUS-AZURE_CLOUD_SECURITY-0878C9?style=flat-square" alt="Focus: Azure Cloud Security" />
 <img src="https://img.shields.io/badge/LEARNING-IDENTITY_%26_ACCESS-168C83?style=flat-square" alt="Learning identity and access" />
